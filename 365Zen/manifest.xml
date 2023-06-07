@@ -7,10 +7,8 @@
 
   <Id>d880e7d1-7fb4-4269-8bc8-aab4753516e5</Id>
   <Version>1.0.0</Version>
-  <Name>
-    <Short>365zen</Short>
-    <Full>Contoso Task Pane Add-in</Full>
-  </Name>
+  <ProviderName>MoveZen</ProviderName>
+    <DisplayName DefaultValue="365zen" />
   <Description>
     <Short>A template to get started.</Short>
     <Full>This is the template to get started.</Full>
