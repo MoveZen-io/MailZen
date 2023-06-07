@@ -17,7 +17,4 @@ export async function run() {
   /**
    * Insert your Outlook code here
    */
-
-  const item = Office.context.mailbox.item;
-  document.getElementById("item-subject").innerHTML = "<b>Subject:</b> <br/>" + item.subject;
 }
