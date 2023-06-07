@@ -4,13 +4,13 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Zen2"/>
-  <Description DefaultValue="A template to get started."/>
+  <DisplayName DefaultValue="MailZen"/>
+  <Description DefaultValue="Company outlook addin for templates and more"/>
   <IconUrl DefaultValue="https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://movezen360.com"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://movezen360.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
