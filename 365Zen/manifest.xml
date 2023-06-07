@@ -12,7 +12,7 @@
   <DisplayName DefaultValue="365 Zen" />
   <Description DefaultValue="MoveZen Office Add Ins" />
   <IconUrl DefaultValue="/misc/icon.png" />
-  <SupportUrl DefaultValue="https://victoryrealestateinc.com/" />
+  <SupportUrl DefaultValue="https://victoryrealestateinc.com/supportr" />
 
   <Hosts>
     <Host Name="Mailbox" />
