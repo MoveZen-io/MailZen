@@ -1,147 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root><$schema>https://raw.githubusercontent.com/OfficeDev/microsoft-teams-app-schema/preview/DevPreview/MicrosoftTeams.schema.json
-</$schema>
-<id>d880e7d1-7fb4-4269-8bc8-aab4753516e5</id>
-<manifestVersion>devPreview</manifestVersion>
-<version>1.0.0</version>
-<name>
-  <short>365zen</short>
-  <full>Contoso Task Pane Add-in</full>
-</name>
-<description>
-  <short>A template to get started.</short>
-  <full>This is the template to get started.</full>
-</description>
-<developer>
-  <name>Contoso</name>
-  <websiteUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</websiteUrl>
-  <privacyUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</privacyUrl>
-  <termsOfUseUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</termsOfUseUrl>
-</developer>
-<icons>
-  <outline>assets/icon-64.png</outline>
-  <color>assets/icon-128.png</color>
-</icons>
-<accentColor>#230201</accentColor>
-<localizationInfo>
-  <defaultLanguageTag>en-us</defaultLanguageTag>
-  <additionalLanguages/>
-</localizationInfo>
-<authorization>
-  <permissions>
-    <resourceSpecific>
-      <name>MailboxItem.Read.User</name>
-      <type>Delegated</type>
-    </resourceSpecific>
-  </permissions>
-</authorization>
-<validDomains>contoso.com</validDomains>
-<extensions>
-  <requirements>
-    <scopes>mail</scopes>
-    <capabilities>
-      <name>Mailbox</name>
-      <minVersion>1.3</minVersion>
-    </capabilities>
-  </requirements>
-  <runtimes>
-    <requirements>
-      <capabilities>
-        <name>Mailbox</name>
-        <minVersion>1.3</minVersion>
-      </capabilities>
-    </requirements>
-    <id>TaskPaneRuntime</id>
-    <type>general</type>
-    <code>
-      <page>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</page>
-    </code>
-    <lifetime>short</lifetime>
-    <actions>
-      <id>TaskPaneRuntimeShow</id>
-      <type>openPage</type>
-      <pinnable>false</pinnable>
-      <view>dashboard</view>
-    </actions>
-  </runtimes>
-  <runtimes>
-    <id>CommandsRuntime</id>
-    <type>general</type>
-    <code>
-      <page>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/commands/commands.html</page>
-      <script>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/commands/commands.js</script>
-    </code>
-    <lifetime>short</lifetime>
-    <actions>
-      <id>action</id>
-      <type>executeFunction</type>
-      <displayName>action</displayName>
-    </actions>
-  </runtimes>
-  <ribbons>
-    <contexts>mailRead</contexts>
-    <tabs>
-      <builtInTabId>TabDefault</builtInTabId>
-      <groups>
-        <id>msgReadGroup</id>
-        <label>Contoso Add-in</label>
-        <icons>
-          <size>16</size>
-          <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png/assets/icon-16.png</file>
-        </icons>
-        <icons>
-          <size>32</size>
-          <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</file>
-        </icons>
-        <icons>
-          <size>80</size>
-          <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</file>
-        </icons>
-        <controls>
-          <id>msgReadOpenPaneButton</id>
-          <type>button</type>
-          <label>Show Taskpane</label>
-          <icons>
-            <size>16</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-16.png</file>
-          </icons>
-          <icons>
-            <size>32</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</file>
-          </icons>
-          <icons>
-            <size>80</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</file>
-          </icons>
-          <supertip>
-            <title>Show Taskpane</title>
-            <description>Opens a pane displaying all available properties.</description>
-          </supertip>
-          <actionId>TaskPaneRuntimeShow</actionId>
-        </controls>
-        <controls>
-          <id>ActionButton</id>
-          <type>button</type>
-          <label>Perform an action</label>
-          <icons>
-            <size>16</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-16.png</file>
-          </icons>
-          <icons>
-            <size>32</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</file>
-          </icons>
-          <icons>
-            <size>80</size>
-            <file>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</file>
-          </icons>
-          <supertip>
-            <title>Perform an action</title>
-            <description>Perform an action when clicked.</description>
-          </supertip>
-          <actionId>action</actionId>
-        </controls>
-      </groups>
-    </tabs>
-  </ribbons>
-</extensions>undefined</root>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xsi:type="MailApp">
+
+  <Id>d880e7d1-7fb4-4269-8bc8-aab4753516e5</Id>
+  <Version>1.0.0</Version>
+  <Name>
+    <Short>365zen</Short>
+    <Full>Contoso Task Pane Add-in</Full>
+  </Name>
+  <Description>
+    <Short>A template to get started.</Short>
+    <Full>This is the template to get started.</Full>
+  </Description>
+  <Developer>
+    <Name>Contoso</Name>
+    <WebsiteUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</WebsiteUrl>
+    <PrivacyUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</PrivacyUrl>
+    <TermsOfUseUrl>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</TermsOfUseUrl>
+  </Developer>
+  <Icons>
+    <Outline>assets/icon-64.png</Outline>
+    <Color>assets/icon-128.png</Color>
+  </Icons>
+  <AccentColor>#230201</AccentColor>
+  <LocalizationInfo>
+    <DefaultLanguageTag>en-us</DefaultLanguageTag>
+    <AdditionalLanguages />
+  </LocalizationInfo>
+  <Authorization>
+    <Permissions>
+      <ResourceSpecific>
+        <Permission>
+          <Name>MailboxItem.Read.User</Name>
+          <Type>Delegated</Type>
+        </Permission>
+      </ResourceSpecific>
+    </Permissions>
+  </Authorization>
+  <ValidDomains>
+    <Domain>contoso.com</Domain>
+  </ValidDomains>
+  <Extensions>
+    <Extension>
+      <Requirements>
+        <Sets>
+          <Set>
+            <Name>Mailbox</Name>
+            <MinVersion>1.3</MinVersion>
+          </Set>
+        </Sets>
+      </Requirements>
+      <Runtimes>
+        <Runtime>
+          <Requirements>
+            <Capabilities>
+              <Capability>
+                <Name>Mailbox</Name>
+                <MinVersion>1.3</MinVersion>
+              </Capability>
+            </Capabilities>
+          </Requirements>
+          <Id>TaskPaneRuntime</Id>
+          <Type>general</Type>
+          <Code>
+            <Page>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/taskpane/taskpane.html</Page>
+          </Code>
+          <Lifetime>short</Lifetime>
+          <Actions>
+            <Action>
+              <Id>TaskPaneRuntimeShow</Id>
+              <Type>openPage</Type>
+              <Pinnable>false</Pinnable>
+              <View>dashboard</View>
+            </Action>
+          </Actions>
+        </Runtime>
+        <Runtime>
+          <Id>CommandsRuntime</Id>
+          <Type>general</Type>
+          <Code>
+            <Page>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/commands/commands.html</Page>
+            <Script>https://movezen-io.github.io/movezen-io-github.io/365Zen/src/commands/commands.js</Script>
+          </Code>
+          <Lifetime>short</Lifetime>
+          <Actions>
+            <Action>
+              <Id>action</Id>
+              <Type>executeFunction</Type>
+              <DisplayName>action</DisplayName>
+            </Action>
+          </Actions>
+        </Runtime>
+      </Runtimes>
+      <Ribbons>
+        <Ribbon>
+          <Contexts>
+            <Context>mailRead</Context>
+          </Contexts>
+          <Tabs>
+            <Tab>
+              <BuiltInTabId>TabDefault</BuiltInTabId>
+              <Groups>
+                <Group>
+                  <Id>msgReadGroup</Id>
+                  <Label>Contoso Add-in</Label>
+                  <Icons>
+                    <Icon>
+                      <Size>16</Size>
+                      <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png/assets/icon-16.png</File>
+                    </Icon>
+                    <Icon>
+                      <Size>32</Size>
+                      <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</File>
+                    </Icon>
+                    <Icon>
+                      <Size>80</Size>
+                      <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</File>
+                    </Icon>
+                  </Icons>
+                  <Controls>
+                    <Control>
+                      <Id>msgReadOpenPaneButton</Id>
+                      <Type>button</Type>
+                      <Label>Show Taskpane</Label>
+                      <Icons>
+                        <Icon>
+                          <Size>16</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-16.png</File>
+                        </Icon>
+                        <Icon>
+                          <Size>32</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</File>
+                        </Icon>
+                        <Icon>
+                          <Size>80</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</File>
+                        </Icon>
+                      </Icons>
+                      <Supertip>
+                        <Title>Show Taskpane</Title>
+                        <Description>Opens a pane displaying all available properties.</Description>
+                      </Supertip>
+                      <ActionId>TaskPaneRuntimeShow</ActionId>
+                    </Control>
+                    <Control>
+                      <Id>ActionButton</Id>
+                      <Type>button</Type>
+                      <Label>Perform an action</Label>
+                      <Icons>
+                        <Icon>
+                          <Size>16</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-16.png</File>
+                        </Icon>
+                        <Icon>
+                          <Size>32</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-32.png</File>
+                        </Icon>
+                        <Icon>
+                          <Size>80</Size>
+                          <File>https://movezen-io.github.io/movezen-io-github.io/365Zen/assets/icon-80.png</File>
+                        </Icon>
+                      </Icons>
+                      <Supertip>
+                        <Title>Perform an action</Title>
+                        <Description>Perform an action when clicked.</Description>
+                      </Supertip>
+                      <ActionId>action</ActionId>
+                    </Control>
+                  </Controls>
+                </Group>
+              </Groups>
+            </Tab>
+          </Tabs>
+        </Ribbon>
+      </Ribbons>
+    </Extension>
+  </Extensions>
+</OfficeApp>
