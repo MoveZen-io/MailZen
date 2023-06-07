@@ -11,7 +11,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="365 Zen" />
   <Description DefaultValue="MoveZen Office Add Ins" />
-  <IconUrl DefaultValue="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
+  <IconUrl DefaultValue="/misc/icon.png" />
   <SupportUrl DefaultValue="https://victoryrealestateinc.com/" />
 
   <Hosts>
@@ -21,7 +21,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://movezen.co/365zen/" />
+        <SourceLocation DefaultValue="https://movezen-io.github.io/movezen-io-github.io/365zen" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -52,9 +52,9 @@
               <Group id="msgRead">
                 <Label resid="GroupLabel" />
                 <Icon>
-                  <bt:Image size="16" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                  <bt:Image size="32" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                  <bt:Image size="80" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
+                  <bt:Image size="16" resid="/misc/icon.png" />
+                  <bt:Image size="32" resid="/misc/icon.png" />
+                  <bt:Image size="80" resid="/misc/icon.png" />
                 </Icon>
                 <Control xsi:type="Button" id="msgReadOpenPaneButton">
                   <Label resid="PaneButton.Label" />
@@ -63,12 +63,12 @@
                     <Description resid="PaneButton.Tooltip" />
                   </Supertip>
                   <Icon>
-                    <bt:Image size="16" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                    <bt:Image size="32" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                    <bt:Image size="80" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
+                    <bt:Image size="16" resid="/misc/icon.png" />
+                    <bt:Image size="32" resid="/misc/icon.png" />
+                    <bt:Image size="80" resid="/misc/icon.png" />
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
-                    <SourceLocation resid="https://movezen.co/365zen/" />
+                    <SourceLocation resid="https://movezen-io.github.io/movezen-io-github.io/365zen" />
                   </Action>
                 </Control>
                 <Control xsi:type="Button" id="setTextButton">
@@ -78,9 +78,9 @@
                     <Description resid="SetTextButton.Tooltip" />
                   </Supertip>
                   <Icon>
-                    <bt:Image size="16" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                    <bt:Image size="32" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
-                    <bt:Image size="80" resid="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" />
+                    <bt:Image size="16" resid="/misc/icon.png" />
+                    <bt:Image size="32" resid="/misc/icon.png" />
+                    <bt:Image size="80" resid="/misc/icon.png" />
                   </Icon>
                   <Action xsi:type="ExecuteFunction">
                     <FunctionName>setText</FunctionName>
@@ -94,10 +94,10 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png" DefaultValue="https://victoryrealestateinc.com/wp-content/uploads/2023/05/cropped-MoveZen-Property-Management-Company.png.webp" />
+        <bt:Image id="/misc/icon.png" DefaultValue="/misc/icon.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://movezen.co/365zen/" />
+        <bt:Url id="Commands.Url" DefaultValue="https://movezen-io.github.io/movezen-io-github.io/365zen" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="My Group" />
