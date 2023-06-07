@@ -10,19 +10,19 @@
   <ProviderName>MoveZen</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="365 Zen" />
-  <Description DefaultValue="MoveZen Office Add Ins" />
+  <Description DefaultValue="MoveZen Office Add-ins" />
   <IconUrl DefaultValue="https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png" />
-  <SupportUrl DefaultValue="https://victoryrealestateinc.com/supportr" />
+  <SupportUrl DefaultValue="https://victoryrealestateinc.com/support" />
+
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
 
   <Requirements>
     <Sets DefaultMinVersion="1.3">
       <Set Name="Mailbox" />
     </Sets>
   </Requirements>
-
-  <Hosts>
-    <Host Name="Mailbox" />
-  </Hosts>
 
   <FormSettings>
     <Form xsi:type="ItemEdit">
@@ -39,24 +39,14 @@
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit" />
   </Rule>
 
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.1" xsi:type="VersionOverridesV1_1">
     <Hosts>
       <Host xsi:type="MailHost">
         <DesktopFormFactor>
-          <FunctionFile resid="Commands.Url" />
-          <ExtensionPoint xsi:type="Events">
-            <Event Type="ItemChanged" FunctionExecution="synchronous" FunctionName="itemChanged" />
-            <Event Type="OfficeLoaded" FunctionExecution="synchronous" FunctionName="officeLoaded" />
-          </ExtensionPoint>
           <ExtensionPoint xsi:type="MessageReadCommandSurface">
             <OfficeTab id="TabDefault">
               <Group id="msgRead">
                 <Label resid="GroupLabel" />
-                <Icon>
-                  <bt:Image size="16" resid="https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png" />
-                  <bt:Image size="32" resid="https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png" />
-                  <bt:Image size="80" resid="https://movezen-io.github.io/movezen-io-github.io/365Zen/misc/icon.png" />
-                </Icon>
                 <Control xsi:type="Button" id="msgReadOpenPaneButton">
                   <Label resid="PaneButton.Label" />
                   <Supertip>
