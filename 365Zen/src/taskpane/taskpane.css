@@ -82,7 +82,7 @@ b {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px 60px /* Adjust grid size based on your content */
+    grid-template-columns: 60px 60px 60px 60px 60px 60px; /* Adjust grid size based on your content */
     grid-template-rows: auto; /* Adjust grid size based on your content */
     grid-gap: 8px;
     justify-content: center; /* Center the grid on the page */
