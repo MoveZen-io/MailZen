@@ -12,6 +12,42 @@ function insertBody() {
 }
 
 
+function sendTemplate2() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+function sendTemplate3() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+
+function sendTemplate4() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+function sendTemplate5() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+function sendTemplate6() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+function sendTemplate7() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
+function sendTemplate8() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+}
+
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
     document.getElementById("insertTemplate1").onclick = sendTemplate1;
