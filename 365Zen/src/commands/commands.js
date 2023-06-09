@@ -752,8 +752,6 @@ function sendApprovedNotice() {
 
 
 
-
-
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
     document.getElementById("insertSorry").onclick = sendSorry;
@@ -761,7 +759,7 @@ Office.onReady(info => {
     document.getElementById("insertVendor").onclick = sendVendor;
     document.getElementById("insertRentalResponse").onclick = sendRentalResponse;
     document.getElementById("insertPayslip").onclick = sendPayslip;
-    document.getElementById("insertMove").onclick = sendMove;
+    document.getElementById("insertOwnerMove").onclick = sendOwnerMove;
   }
 });
 
