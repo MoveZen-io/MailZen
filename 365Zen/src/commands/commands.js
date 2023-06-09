@@ -20,7 +20,7 @@ function prependHtmlBody(bodyVar) {
 function sendSorry() {
   Office.context.mailbox.item.subject.setAsync("Hello World!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  insertBody(`<p>Hi!</p>
+  prependHtmlBody(`<p>Hi!</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
 
@@ -35,7 +35,7 @@ function sendSorry() {
 function sendApp() {
   Office.context.mailbox.item.subject.setAsync("Hello World!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  insertBody(`<p>APP!</p>
+  prependHtmlBody(`<p>APP!</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
 
@@ -50,7 +50,56 @@ function sendApp() {
 function sendVendor() {
   Office.context.mailbox.item.subject.setAsync("Hello World!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  insertBody(`<p>VENDORi!</p>
+  prependHtmlBody(`<p>VENDORi!</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
+
+<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p>
+
+<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+
+}
+
+
+
+
+function sendRentalResponse() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+  prependHtmlBody(`<p>Rental Responsei!</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
+
+<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p>
+
+<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+
+}
+
+
+
+
+function sendPayslip() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+  prependHtmlBody(`<p>Still by check?i!</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
+
+<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p>
+
+<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+
+}
+
+
+
+
+
+function sendVendor() {
+  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+  prependHtmlBody(`<p>VENDORi!</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p>
 
@@ -67,6 +116,9 @@ Office.onReady(info => {
     document.getElementById("insertSorry").onclick = sendSorry;
     document.getElementById("insertApp").onclick = sendApp;
     document.getElementById("insertVendor").onclick = sendVendor;
+
+    document.getElementById("insertRentalResponse").onclick = sendRentalResponse;
+    document.getElementById("insertPayslip").onclick = sendPayslip;
   }
 });
 
