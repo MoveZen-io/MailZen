@@ -143,11 +143,9 @@ function sendRentalResponse() {
 
 
 function sendPayslip() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.subject.setAsync("Still Paying Rent With a Check or Money Order?");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  prependHtmlBody(`<p>Still Paying Rent With a Check or Money Order?</p><br>
-
-  <p>We have a much better solution using a payment process through your nearby WalMart or CVS!&nbsp; Among others</p>
+  prependHtmlBody(`<p>We have a much better solution using a payment process through your nearby WalMart or CVS!&nbsp; Among others</p>
 
   <p>&nbsp;</p>
   
