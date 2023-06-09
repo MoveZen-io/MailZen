@@ -1,52 +1,21 @@
+
+function insertBody(templateBody) {
+  var bodyContent = templateBody;
+  Office.context.mailbox.item.body.prependAsync(bodyContent, function(result) {
+    if (result.status === Office.AsyncResultStatus.Failed){
+      console.error(result.error.message);
+    }
+  });
+}
+
 function sendTemplate1() {
   Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
+  // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
+  insertBody("This is the body of the emaillll.");
 
-function insertSubject() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-}
-
-function insertBody() {
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
 }
 
 
-function sendTemplate2() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-function sendTemplate3() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-
-function sendTemplate4() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-function sendTemplate5() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-function sendTemplate6() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-function sendTemplate7() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
-
-function sendTemplate8() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
-  Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-}
 
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
