@@ -33,11 +33,9 @@ function sendSorry() {
 
 
 function sendApp() {
-  Office.context.mailbox.item.subject.setAsync("You've begun the application journey. Next steps");
+  Office.context.mailbox.item.subject.setAsync("How to get your MoveZen application moving forward fast!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  prependHtmlBody(`<p>How to get your MoveZen application moving forward fast!</p><br>
-
-  <p>Thank you for beggining the application process!<br />
+  prependHtmlBody(` <p>Thank you for beginning the application process!<br />
   <br />
   Our application process is broken down to two main parts. Payment, and background information submission. &nbsp;You will need to get us both of those before we can move forward. Here&#39;s how..<br />
   <br />
@@ -65,15 +63,27 @@ function sendApp() {
 
 
 function sendVendor() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
+  Office.context.mailbox.item.subject.setAsync("Thanks for your interest in working with us!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  prependHtmlBody(`<p>VENDORi!</p><br>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
-
-<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
-
-<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+  prependHtmlBody(`<p>​Hello!<br />
+  <br />
+  Thanks for your interest in becoming a vendor with Victory Property Management. Attached, you&#39;ll find an information packet and some forms for your reference. In order to complete your vendor onboardings, we will need the following:<br />
+  &nbsp;</p>
+  
+  <ul>
+    <li><a href="https://movezen.sharepoint.com/:b:/s/Teams/EfwwnpuUK9FIjAvfRLb6kcwBz8TEiRRt7bNnXbOTFVQJ9w?e=bZxTYG">Learn who we are</a></li>
+    <li>Provide your business/individual name</li>
+    <li><a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf">Submit a signed W9 form</a></li>
+    <li>Provide a certificate of insurance listing Victory Real Estate Inc as an additional insured/interest at the following address: 4002 1/2 Oleander Dr. Suite 1A, Wilmington, NC 28403</li>
+    <li>Share your mailing address and contact information</li>
+    <li>Describe your field of work and the service area you cover</li>
+  </ul>
+  
+  <p><br />
+  Please let us know if you have any questions. We look forward to working with you!<br />
+  <br />
+  Thanks, Customer Service Team</p>
+  `);
 
 }
 
@@ -113,16 +123,22 @@ function sendPayslip() {
 
 
 
-function sendVendor() {
-  Office.context.mailbox.item.subject.setAsync("Hello World!");
+function sendApprovedNotice() {
+  Office.context.mailbox.item.subject.setAsync("Your MoveZen Application is Approved!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  prependHtmlBody(`<p>VENDORi!</p><br>
+  prependHtmlBody(`<p>Thank you again for your interest in partnering with us and the homeowner</p><br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
-
-<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
-
-<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+  <p>We are starting the process of getting you set up to move in! &nbsp;From here we need the first month&#39;s rent (nonrefundable) hold payment made within 48 hours. &nbsp;<br />
+  <br />
+  We&#39;ll collect your security deposit just prior to move in, or you can pay both now. &nbsp;In most cases only the first month&#39;s rent will be non-refundable should you not be able to move forward, so any additional payments are refundable, deposits, pet fees, etc. &nbsp;If we hold a home longer than 45 days the daily prorate hold charges will apply from day 46 on<br />
+  <br />
+  Your hold payment will ensure that no one else can get the property, a signed lease doesn&#39;t. &nbsp;You have to pay the full hold payment to fully secure the property. You&#39;ll receive a copy of your lease in just a bit, and it must be signed within 3 days or you risk losing the home. &nbsp;No home is completely secured until we have a signed agreement, and consideration (payment)<br />
+  <br />
+  From this point forward we&#39;ll send several very important emails and texts, so be sure to safelist us or keep an eye on your junk folder. &nbsp;Your tenant portal invite will arrive momentarily, and you are welcome to pay online via your portal IF your move-in is more than 7 days away from your payment date, otherwise, you must per company policy pay by certified check / money order delivered to our office or staff. &nbsp;There are never exceptions to that rule due to significant fraud risks. Please do not miss it. If you pay online, you would have to pay again in certified funds to move in within 7 days, and we&#39;d credit the uncleared funds to the next month<br />
+  <br />
+  <a href="https://movezen.sharepoint.com/:b:/s/Teams/Ed6cnS8o6Q5ChC7kduknd2oBhPoqj51MZdUXYuipKqtySQ?e=d5nokc">Consult the &quot;rules of the road&quot; if you have additional questions</a><br />
+  <br />
+  We&#39;re looking forward to having you! &nbsp;Customer Service Team</p>`);
 
 }
 
