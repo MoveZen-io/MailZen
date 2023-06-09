@@ -109,13 +109,26 @@ function sendRentalResponse() {
 function sendPayslip() {
   Office.context.mailbox.item.subject.setAsync("Hello World!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
-  prependHtmlBody(`<p>Still by check?i!</p><br>
+  prependHtmlBody(`<p>Still Paying Rent With a Check or Money Order?</p><br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we have accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
+  <p>We have a much better solution using a payment process through your nearby WalMart or CVS!&nbsp; Among others</p>
 
-<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
-
-<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+  <p>&nbsp;</p>
+  
+  <p>All you do is walk in with a barcode that we would provide to you by text or email, they scan it, you pay, and your rent is instantly&nbsp;funded and will&nbsp;show up on our end that way. It&#39;s the best way to avoid late fees</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>More importantly, it&#39;s a lot cheaper than buying multiple money orders</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Finally it&#39;s low risk. With WalMart you know it&#39;s legitimate and safe. Just keep your receipt, and it&#39;s safer&nbsp;than a money order also</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Contact us today and we&#39;ll send yours out!&nbsp; Customer Service Team</p>
+  `);
 
 }
 
