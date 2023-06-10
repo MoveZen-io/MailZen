@@ -1411,7 +1411,7 @@ function sendGeneralRentInfo() {
 
 
 
-function ownerTurnoverReserve() {
+function sendTurnoverReserve() {
   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
 
   prependHtmlBody(`asdf`);
@@ -1456,6 +1456,26 @@ Office.onReady(info => {
     document.getElementById("insertGeneralRentInfo").onclick = sendGeneralRentInfo;
     document.getElementById("insertTurnoverReserve").onclick = sendTurnoverReserve;
     document.getElementById("insertVendorInsur").onclick = sendVendorInsur;
+
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // personalized owner negotaition start
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // personalized rent negotaition start
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move In info!
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // zMove in inspection reminder to residents
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // complaint template
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move out checklist
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Unseen disclaimer
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Reference quesions
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // placement only
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // inherited tenants
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // how to break lease
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // 30 day hold max
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move out start
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Portal reset with help link
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Time to schedule self show
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Field service ad reply
+    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Rerent showing notice
+
+
   }
 });
 
