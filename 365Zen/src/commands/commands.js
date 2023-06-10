@@ -135,7 +135,28 @@ function sendRentalResponse() {
   
   <p>At MoveZen we take very good care of our customers. Should&nbsp;you&nbsp;choose one of our premium homes,&nbsp;you&nbsp;will enjoy the following conveniences: the fastest response in the industry to maintenance issues; courteous, professional, office staff; timely processing of applications and repairs.&nbsp; We operate with the highest level of honor and integrity. Whether in the best interest of our tenants, or homeowners,&nbsp;you&nbsp;can always count on us to act in perfect accordance with the law, and just good neighborhood service.&nbsp;</p>
   
-  <p>Thanks!&nbsp; Customer Service Team</p>`);
+  <p>Here are some common steps you may find helpful</p>
+
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p>
+
+  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p>
+
+  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p>
+
+  <p><br />
+  If you would like to apply you can do that here</p>
+
+  <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
+
+  <p>&nbsp;</p>
+
+  <p>Finally you can often find answers faster using this helpful policy and questions search</p>
+
+  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
+
+  <p>&nbsp;</p>
+
+  <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
 
 }
 
@@ -1361,23 +1382,66 @@ function sendUtilityNotice() {
 
 
 function sendGeneralRentInfo() {
-  Office.context.mailbox.item.subject.setAsync("Here's some help with your MoveZen rental search");
+  Office.context.mailbox.item.subject.setAsync("Thanks for your interest. Here's some info to help you get started");
 
-  prependHtmlBody(`<p>Hello!&nbsp;</p>
+  prependHtmlBody(`<p>Here are some common steps you may find helpful</p>
 
-  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p>
   
-  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p>
+  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p>
   
-  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p>
+  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p>
   
-  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p>
+  <p><br />
+  If you would like to apply you can do that here</p>
   
-  <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p>
+  <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
   
-  <p><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
+  <p>&nbsp;</p>
+  
+  <p>Finally you can often find answers faster using this helpful policy and questions search</p>
+  
+  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
 
 }
+
+
+
+
+
+function ownerTurnoverReserve() {
+  Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
+
+  prependHtmlBody(`asdf`);
+
+}
+
+
+
+
+function vendorInsur() {
+  Office.context.mailbox.item.subject.setAsync("Let's get your insurance updated to avoid critical delays");
+
+  prependHtmlBody(`<p>Hi!</p>
+
+  <p>It looks like your liability insurance with Victory Real Estate Inc listed as an additional insured is out of date on our end</p>
+  
+  <p>Please have your insurance company send us an updated a current COI with&nbsp;&quot;Victory Real Estate Inc&quot; listed as an additional insured.&nbsp;<br />
+  <br />
+  COI, Additional Insured/Interest is as follows:<br />
+  Victory Real Estate Inc<br />
+  4002 1/2 Oleander Dr. Suite 1A</p>
+  
+  <p>Wilmington, NC 28403&nbsp;<br />
+  <br />
+  Thanks! MoveZen&nbsp; (we&#39;ll legally change our name in late 2024, this is dba)</p>`);
+
+}
+
 
 
 Office.onReady(info => {
@@ -1391,6 +1455,9 @@ Office.onReady(info => {
     document.getElementById("insertEvictNotice").onclick = sendEvictNotice;
     document.getElementById("insertMoveInInfo").onclick = sendMoveInInfo;
     document.getElementById("insertUtilityNotice").onclick = sendUtilityNotice;
+    document.getElementById("insertGeneralRentInfo").onclick = sendGeneralRentInfo;
+    document.getElementById("insertTurnoverReserve").onclick = sendTurnoverReserve;
+    document.getElementById("insertVendorInsur").onclick = sendVendorInsur;
   }
 });
 
