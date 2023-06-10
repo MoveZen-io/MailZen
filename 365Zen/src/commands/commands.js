@@ -133,7 +133,7 @@ function sendRentalResponse() {
   
   <p>&nbsp;</p>
   
-  <p>&nbsp;&nbsp;&nbsp; &nbsp;At MoveZen we take very good care of our customers. Should&nbsp;you&nbsp;choose one of our premium homes,&nbsp;you&nbsp;will enjoy the following conveniences: the fastest response in the industry to maintenance issues; courteous, professional, office staff; timely processing of applications and repairs.&nbsp;MoveZen operates with the highest level of honor and integrity. Whether in the best interest of our tenants, or homeowners,&nbsp;you&nbsp;can always count on us to act in perfect accordance with the law, and just good neighborhood service.&nbsp;</p>
+  <p>At MoveZen we take very good care of our customers. Should&nbsp;you&nbsp;choose one of our premium homes,&nbsp;you&nbsp;will enjoy the following conveniences: the fastest response in the industry to maintenance issues; courteous, professional, office staff; timely processing of applications and repairs.&nbsp; We operate with the highest level of honor and integrity. Whether in the best interest of our tenants, or homeowners,&nbsp;you&nbsp;can always count on us to act in perfect accordance with the law, and just good neighborhood service.&nbsp;</p>
   
   <p>Thanks!&nbsp; Customer Service Team</p>`);
 
