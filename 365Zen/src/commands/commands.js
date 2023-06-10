@@ -95,66 +95,65 @@ function sendRentalResponse() {
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
   prependHtmlBody(`<p>Thank&nbsp;you&nbsp;so much for contacting us! We appreciate&nbsp;your&nbsp;interest and will do whatever we can to find&nbsp;you&nbsp;the perfect home.&nbsp;</p>
 
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>If&nbsp;you&nbsp;would like to go ahead and easily schedule a viewing,&nbsp;you&nbsp;can bypass this email altogether, and use the link below.&nbsp; Many of our properties are available for instant access at any time that&nbsp;you&nbsp;choose between 8am and 8pm.</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/" target="_blank">Link to Access Self Showings</a></p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>The home&nbsp;you&nbsp;inquired about is a really great deal, and I&rsquo;m sure&nbsp;you&nbsp;will love it once&nbsp;you&nbsp;have a chance to take a closer look! To&nbsp;make&nbsp;the process a little quicker, the following information would be helpful&hellip;</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>When are&nbsp;you&nbsp;looking&nbsp;to&nbsp;make&nbsp;your&nbsp;big&nbsp;move&nbsp;and&nbsp;become&nbsp;a&nbsp;Victory&nbsp;resident?&nbsp;</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>Would&nbsp;you&nbsp;have a problem with a credit check, if&nbsp;you&nbsp;decide&nbsp;you&nbsp;want to rent?</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>Please describe any pets&nbsp;you&nbsp;have that will be in the home.</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>Who will the tenants be, and what is their job/cosign situations?</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>What kind of term are&nbsp;you&nbsp;looking&nbsp;for?&nbsp; Would&nbsp;you&nbsp;consider a 2-year lease?</p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>Do&nbsp;you&nbsp;have a past landlord reference?</p>
   
-  <p>&nbsp;</p>
+  <br><br>
+
+  <p>At MoveZen we take very good care of our customers. Should&nbsp;you&nbsp;choose one of our premium homes,&nbsp;you&nbsp;will enjoy the following conveniences: the fastest response in the industry to maintenance issues; courteous, professional, office staff; timely processing of applications and repairs.&nbsp; We operate with the highest level of honor and integrity. Whether in the best interest of our tenants, or homeowners,&nbsp;you&nbsp;can always count on us to act in perfect accordance with the law, and just good neighborhood service.&nbsp;</p><br><br>
   
-  <p>At MoveZen we take very good care of our customers. Should&nbsp;you&nbsp;choose one of our premium homes,&nbsp;you&nbsp;will enjoy the following conveniences: the fastest response in the industry to maintenance issues; courteous, professional, office staff; timely processing of applications and repairs.&nbsp; We operate with the highest level of honor and integrity. Whether in the best interest of our tenants, or homeowners,&nbsp;you&nbsp;can always count on us to act in perfect accordance with the law, and just good neighborhood service.&nbsp;</p>
-  
-  <p>Here are some common steps you may find helpful</p>
+  <p>Here are some common steps you may find helpful</p><br><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br><br>
 
-  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p>
+  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p>
+  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p><br><br>
 
-  <p><br />
-  If you would like to apply you can do that here</p>
+  <p>If you would like to apply you can do that here</p><br><br>
 
   <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
 
-  <p>&nbsp;</p>
+  <br><br>
 
-  <p>Finally you can often find answers faster using this helpful policy and questions search</p>
+  <p>Finally you can often find answers faster using this helpful policy and questions search</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
+  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p><br><br>
 
-  <p>&nbsp;</p>
+  <br><br>
 
   <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
 
@@ -770,13 +769,13 @@ function sendApprovedNotice() {
 function sendEvictNotice() {
   Office.context.mailbox.item.subject.setAsync("Why it's crucial you avoid an eviction filing this week");
 
-  prependHtmlBody(`<p>Hello, as of now we haven&#39;t received your payment for this month and you are at risk of imminent&nbsp;eviction.&nbsp; At this point we will file soon, most likely&nbsp;immediately&nbsp;if the owner demands it.&nbsp;</p>
+  prependHtmlBody(`<p>Hello, as of now we haven&#39;t received your payment for this month and you are at risk of imminent&nbsp;eviction.&nbsp; At this point we will file soon, most likely&nbsp;immediately&nbsp;if the owner demands it.&nbsp;</p><br>
 
-  <p>We&#39;ll try to buy you another day or two but that&#39;s not a given, and gets harder the more we do this so get that payment in now and avoid that devastating experience.&nbsp; Just the filing is so bad that we almost never rent to residents who have those on their background, so you will find it much harder to find housing for nearly a decade.&nbsp; Get help if need be, but get something done because there is no time left.</p>
+  <p>We&#39;ll try to buy you another day or two but that&#39;s not a given, and gets harder the more we do this so get that payment in now and avoid that devastating experience.&nbsp; Just the filing is so bad that we almost never rent to residents who have those on their background, so you will find it much harder to find housing for nearly a decade.&nbsp; Get help if need be, but get something done because there is no time left.</p><br>
   
-  <p>This is a final warning that failing to pay by the 16th again will result in an automatic 30 day notice to vacate that is enforceable in court because the lease will have been officially violated, and that allows us to end the relationship. That is our general company policy and account managers are not allowed to make exceptions without direct owner approval which is rare</p>
+  <p>This is a final warning that failing to pay by the 16th again will result in an automatic 30 day notice to vacate that is enforceable in court because the lease will have been officially violated, and that allows us to end the relationship. That is our general company policy and account managers are not allowed to make exceptions without direct owner approval which is rare</p><br>
   
-  <p>Thanks, Customer Team</p>
+  <p>Thanks, Customer Team</p><br><br>
   
   <p><a href="https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/">https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/</a></p>`);
 
@@ -1362,17 +1361,17 @@ function sendMoveInInfo() {
 function sendUtilityNotice() {
   Office.context.mailbox.item.subject.setAsync("It's important you connect utilities before your move, here's a tool to help");
 
-  prependHtmlBody(`<p>Hello!&nbsp;</p>
+  prependHtmlBody(`<p>Hi!</p>
 
-  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p>
+  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p><br>
   
-  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p>
+  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p><br>
   
-  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p>
+  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p><br>
   
-  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p>
+  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p><br><br>
   
-  <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p>
+  <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p><br><br>
   
   <p><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
 
@@ -1384,26 +1383,25 @@ function sendUtilityNotice() {
 function sendGeneralRentInfo() {
   Office.context.mailbox.item.subject.setAsync("Thanks for your interest. Here's some info to help you get started");
 
-  prependHtmlBody(`<p>Here are some common steps you may find helpful</p>
+  prependHtmlBody(`<p>Here are some common steps you may find helpful</p><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br>
   
-  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p>
+  <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
   
-  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p>
+  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p><br>
   
-  <p><br />
-  If you would like to apply you can do that here</p>
+  <p>If you would like to apply you can do that here</p><br>
   
   <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
-  <p>Finally you can often find answers faster using this helpful policy and questions search</p>
+  <p>Finally you can often find answers faster using this helpful policy and questions search</p><br>
   
   <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
   
-  <p>&nbsp;</p>
+  <br><br>
   
   <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
 
