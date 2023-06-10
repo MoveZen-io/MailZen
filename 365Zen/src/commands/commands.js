@@ -746,10 +746,638 @@ function sendApprovedNotice() {
 
 
 
+function sendEvictNotice() {
+  Office.context.mailbox.item.subject.setAsync("Why it's crucial you avoid an eviction filing this week");
+
+  prependHtmlBody(`<p>Hello, as of now we haven&#39;t received your payment for this month and you are at risk of imminent&nbsp;eviction.&nbsp; At this point we will file soon, most likely&nbsp;immediately&nbsp;if the owner demands it.&nbsp;</p>
+
+  <p>We&#39;ll try to buy you another day or two but that&#39;s not a given, and gets harder the more we do this so get that payment in now and avoid that devastating experience.&nbsp; Just the filing is so bad that we almost never rent to residents who have those on their background, so you will find it much harder to find housing for nearly a decade.&nbsp; Get help if need be, but get something done because there is no time left.</p>
+  
+  <p>This is a final warning that failing to pay by the 16th again will result in an automatic 30 day notice to vacate that is enforceable in court because the lease will have been officially violated, and that allows us to end the relationship. That is our general company policy and account managers are not allowed to make exceptions without direct owner approval which is rare</p>
+  
+  <p>Thanks, Customer Team</p>
+  
+  <p><a href="https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/">https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/</a></p>`);
+
+}
 
 
 
 
+function sendMoveInInfo() {
+  Office.context.mailbox.item.subject.setAsync("Move In Info - Thank you for choosing MoveZen!");
+
+  prependHtmlBody(`<table align="center" cellspacing="0" id="m_-5455835037964899298m_-1598750376468129031gmail-m_1119163153852469884bodyTable" style="border-collapse:collapse; height:4165.69px; padding:0px; width:599.965px">
+	<tbody>
+		<tr>
+			<td style="height:4165.69px; vertical-align:top; width:599.965px">
+			<table cellspacing="0" style="border-collapse:collapse; width:100%">
+				<tbody>
+					<tr>
+						<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+						<h2>MoveZen Customer Service Team</h2>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+						<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:100%">
+							<tbody>
+								<tr>
+									<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; max-width:100%; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="vertical-align:top">
+															<h4 style="text-align:center"><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:20px"><span style="color:#949494"><span style="font-family:Georgia"><em><span style="color:#696969"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:23px"><strong>Pre Move-In Reminders</strong></span></span></span><br />
+															&nbsp;</em></span></span></span></span></span></span></h4>
+
+															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica">We hope everything is coming together with your move.&nbsp; In this email we&#39;ll cover a few&nbsp;reminders that were mentioned in the initial welcome email, but are important.&nbsp; We&#39;ll also provide a couple of move in checklists that we have compiled over the years that can be quite helpful</span></span></span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="text-align:center; vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/bllWmKk12ceyPNUSCu0_31xcLzo_irur8Nn3DxHCWPOk9ZsdmdYUoqKSS_BX-3RvXyRIbqI4IhGGnbZ-sZa0TKLiVWFIOWIoshnW0ZTFG7XMosnyDRdqqRGgJwfIxQzWMaTA0SEdpykliq_zL_wo2onaWA7dkoMPiAo=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/a6cc3d63-36a9-45ee-a279-6323028af4b4.jpg" style="border:0px; display:inline; height:auto; max-width:1280px; outline:none; padding-bottom:0px; vertical-align:bottom; width:564px" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="color:#f2f2f2"><span style="font-family:Helvetica"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Remember : The first thing you must do after walking in the door of your new home is test all smoke and carbon monoxide detectors, and report to us if any don&#39;t function or you need replacement batteries. You must have a carbon monoxide detector if the home has any fossil fuels (gas, propane, not wood) OR an attached garage</span></span></span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">The main purpose of this email is to outline the process to ensure&nbsp;</span><span style="font-family:tahoma,verdana,segoe,sans-serif">you</span><span style="font-family:tahoma,verdana,segoe,sans-serif">&nbsp;get your deposit refunded at move out, &amp; to confirm that you will have utilities (water, electric, gas, trash) available for your move in.&nbsp; All homeowners place a stop order on all utilities not outlined in the lease, (rare) effective the day your lease begins, so you will not have utilities&nbsp;unless you connect them.&nbsp; Here are some tips...</span><br />
+																		&nbsp;</span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table style="background-color:#1d8387; border-radius:3px">
+													<tbody>
+														<tr>
+															<td style="background-color:#1d8387; vertical-align:middle"><span style="font-size:16px"><span style="font-family:Arial">Remember we need cleared / certified funds in full before you can move in. Contact your manager to let them know your move in plans. If after hours and you are paid in full and have utilities transferred we can usually offer check in by lockbox</span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">If moving locally the best approach is to call your existing providers and they will do all the work for you</span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">With very rare exceptions Duke Energy serves all of our markets<br />
+																		<br />
+																		With very rare exceptions PSNC gas serves all of our markets.&nbsp; Most inland homes require gas to run the heat or water heater.&nbsp; Even for coastal rentals, be sure to confirm if you need gas or you could be scrambling to connect after move in</span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table style="background-color:#1d8387; border-radius:3px">
+													<tbody>
+														<tr>
+															<td style="background-color:#1d8387; vertical-align:middle"><span style="font-size:16px"><span style="font-family:Arial">It&#39;s a great idea to review your welcome email checklist, now &amp; 3 days prior to move in</span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">Water, sewer &amp; trash are tougher to identify.&nbsp; In some&nbsp;</span><span style="font-family:tahoma,verdana,segoe,sans-serif">areas</span><span style="font-family:tahoma,verdana,segoe,sans-serif">&nbsp;it&#39;s the city, (most Triangle locations) and in&nbsp;</span><span style="font-family:tahoma,verdana,segoe,sans-serif">others</span><span style="font-family:tahoma,verdana,segoe,sans-serif">&nbsp;it&#39;s privately handled, sometimes with a lot of options. (Wilmington)&nbsp;&nbsp;</span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">For&nbsp;</span><span style="font-family:tahoma,verdana,segoe,sans-serif">media</span>&nbsp;<span style="font-family:tahoma,verdana,segoe,sans-serif">we&#39;re</span><span style="font-family:tahoma,verdana,segoe,sans-serif">&nbsp;mostly served by Spectrum &amp; AT&amp;T but you can use Google for more options. Your account manager will be happy to help out with power, gas, and water connections but we do not get involved in media</span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table style="background-color:#1d8387; border-radius:3px">
+													<tbody>
+														<tr>
+															<td style="background-color:#1d8387; vertical-align:middle"><span style="font-size:16px"><span style="font-family:Arial">Some utilities don&#39;t allow stop orders, which could result in charges to the owner that will then be prorated and added to your balance.&nbsp; We charge a $50 fee for this process.&nbsp; This isn&#39;t a fee for profit, but to discourage the problem</span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; max-width:300px; width:100%">
+													<tbody>
+														<tr>
+															<td style="vertical-align:top"><br />
+															<span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" style="color:#007c89" target="_blank"><img class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/RFCVjjodwQdGQ9D55D_dXkkBjleVQEpiR0haqonsnvUK-Bsn9SbQ8EjjWvmT-E-0EGYmePj6ABSKh9HWzjQhlIkmy5eWpKOTIOXYVJNrkXLsxYfpAw0vGY9jcKNv82z1o2aDFOd3X1RCn0L9vB5c_KOm1GWJJWhj1d0=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/4df8a1a9-68d7-4725-a63b-21616f5d225c.png" style="height:34px; outline:none; text-decoration-line:none; width:233px" /></a></span></span></span></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align="left" cellspacing="0" style="border-collapse:collapse; max-width:300px; width:100%">
+													<tbody>
+														<tr>
+															<td style="vertical-align:top"><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="color:#000000"><span style="font-size:14px"><span style="font-family:tahoma,verdana,segoe,sans-serif">We haven&#39;t used this service for long, but they have phenomenal reviews and it&#39;s worth a shot!</span></span></span></span></span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="color:#f2f2f2"><span style="font-family:Helvetica"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Want to receive a full deposit refund?<br />
+																		<br />
+																		We&#39;ve already provided a list of common charges, as well as the &quot;rules of the road&quot;, but an important final step in the process is a thorough &quot;move-in inspection.&quot;&nbsp;&nbsp;</span></span></span></span></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; width:282px">
+													<tbody>
+														<tr>
+															<td style="vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/tXtDnUFER6IPw-eAoehdHrK_IYJmgBzdMEKyqd-wyr_YsNcYEj30miEvzTtSkAk0iaxY5_NbbECfRgqdW7bniRjZ5CREFZEAoZHxyOJCUXkhDvRoQXE35H7wNdh7w-eQAMaj-kEEbiJPiiPfYbY-CdtERPPxN9IiCMU=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/d3699700-7215-4d68-82f4-5d719f9ab189.jpg" style="border:0px; height:auto; max-width:1280px; outline:none; vertical-align:bottom; width:264px" /></td>
+														</tr>
+														<tr>
+															<td style="vertical-align:top; width:282px">
+															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px"><strong>Here are some move checklists we&#39;ve compiled over the years</strong></span></span><br />
+															<br />
+															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=336aa94633&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a><br />
+															<br />
+															Trulia general moving tips &amp; checklist&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=f0a373ed76&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a><br />
+															<br />
+															33 Moving tips to make life easier&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=742a788d9d&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a></span></span><br />
+															<br />
+															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Movezen</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;21 tips for a seamless move&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=5a853c6a4b&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a></span></span></span></span></span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
+													<tbody>
+														<tr>
+															<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=df063cde7f&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+														</tr>
+														<tr>
+															<td style="vertical-align:top; width:282px">
+															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=86658cbdfd&amp;e=ccbdb3fd00" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
+															<br />
+															Tips to make the most of your inspection<br />
+															<br />
+															Be thorough when filling out this form!<br />
+															<br />
+															Do not forget to return this form to us within 10 days of your lease date, it&#39;s important and often helps us to deal with unreasonable owners<br />
+															<br />
+															Supplement&nbsp;with photos!&nbsp; There are tons of free photo storage options</span></span></span></span></span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="text-align:center; vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci3.googleusercontent.com/proxy/UdA51acQbOoJCP0cYs1QzUdhc5e-sT0F25J3xNYeKIfX_N7nuMjXzmvlT7N67oUPYzsJmkuYTDInorJwGB_SoUxmrWElPY0gG8fuZC4_BDmpRZYGTR3MsSKb--O-zN6OG-_Chm8jmtomVeJg_7vlyH1j0oSNFQTVkrc=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/39283d76-05fd-4613-a001-067895f94023.jpg" style="border:0px; display:inline; height:auto; max-width:1280px; outline:none; padding-bottom:0px; vertical-align:bottom; width:564px" /></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+						<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:100%">
+							<tbody>
+								<tr>
+									<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td>
+															<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+																<tbody>
+																	<tr>
+																		<td style="vertical-align:top">
+																		<table align="center" cellspacing="0" style="border-collapse:collapse">
+																			<tbody>
+																				<tr>
+																					<td style="vertical-align:top">
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=6d02e991ab&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Facebook" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/qFht05wXKJYPVChSqXPNvc1fKWeX0ARJAOjh8GXW1FekOnnQWwgFxvi0sXmeC_gX7kPGmh9zqs_BK5qi-OggZUWwUDTVmFzl2nMLYVkeLOJG1GLy2GMDw2FSwi1lRUI=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=f1130871a1&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Twitter" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/N2Tp0PRtOw2d9fxkOv0uzHayVDLBY_VzizxiL-Dd48Fy12YDJsF-76WbOkn_oZRohKFnaZxIVseSCa0mIwH9gmJ7NAZmurDqOv26ZZGroibd2YTyVdsKHxKbz_-DpQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=4c5539b26d&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="YouTube" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/ukLwIcq0_BwHp3MKQ3JVcL_RusbSuHQBmUyVvwBEVwmTd9REOVwaGuRnIni4_8kBFxo7w90bclIRASj-q9ooUtGrh1Gsuvcw9yFyYoj7zImRlzTGD2bM_hH6zqpjPQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-youtube-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=8225e4f86d&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="LinkedIn" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/HqEBoUAkA3N5YazBXzVCbXCrr77KHTKEGZGql2Q6PeAuAglM245sN6V5A3Aow5J19qeDhbx3aiPlMBPMaZO6WCGmlFUYGjgssF5Yep15n9n7Tz9ACNxbN5yi3dlhGsk=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=6d2e1b9e15&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Website" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/FsqqIPY-Nm2D_Bf5k5DgsUKhKOEwTAS6vKaecLtDq_Tq6x2vbHC_vsCGW9RAFS9OP1aZvcKTwGg22EslrJNCslVk361E_pOQ541PKuxb84ZyXgRNw0WgDMiMaQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+
+																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
+																						<tbody>
+																							<tr>
+																								<td style="vertical-align:top"><a href="mailto:rent@victoryrealestateinc.com" style="color:#1155cc" target="_blank"><img alt="Email" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/Q2GeX3Ltv09AGX_4HZwNpXsmmwQY0KQIB0fHvN2En05EvcjnqfX7is6jynxwIKUMo6m4WU7ICSAQ38Ay4ZJDx_wW5BWZ63cwp7tKE1M1ArQuuZFjgjAblgbA7tT-2mXuKQG7Q8I6=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>`);
+
+}
+
+
+
+
+
+function sendUtilityNotice() {
+  Office.context.mailbox.item.subject.setAsync("It's important you connect utilities before your move, here's a tool to help");
+
+  prependHtmlBody(`<p>Hello!&nbsp;</p>
+
+  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p>
+  
+  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p>
+  
+  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p>
+  
+  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p>
+  
+  <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p>
+  
+  <p><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
+
+}
+
+
+
+
+function sendGeneralRentInfo() {
+  Office.context.mailbox.item.subject.setAsync("Here's some help with your MoveZen rental search");
+
+  prependHtmlBody(`<p>Hello!&nbsp;</p>
+
+  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p>
+  
+  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p>
+  
+  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p>
+  
+  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p>
+  
+  <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p>
+  
+  <p><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
+
+}
 
 
 Office.onReady(info => {
@@ -760,6 +1388,9 @@ Office.onReady(info => {
     document.getElementById("insertRentalResponse").onclick = sendRentalResponse;
     document.getElementById("insertPayslip").onclick = sendPayslip;
     document.getElementById("insertOwnerMove").onclick = sendOwnerMove;
+    document.getElementById("insertEvictNotice").onclick = sendEvictNotice;
+    document.getElementById("insertMoveInInfo").onclick = sendMoveInInfo;
+    document.getElementById("insertUtilityNotice").onclick = sendUtilityNotice;
   }
 });
 
