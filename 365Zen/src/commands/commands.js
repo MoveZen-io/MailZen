@@ -32,6 +32,7 @@ function sendSorry() {
 
 
 
+
 function sendApp() {
   Office.context.mailbox.item.subject.setAsync("How to get your MoveZen application moving forward fast!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
@@ -62,6 +63,7 @@ function sendApp() {
 
 
 
+
 function sendVendor() {
   Office.context.mailbox.item.subject.setAsync("Thanks for your interest in working with us!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
@@ -86,6 +88,7 @@ function sendVendor() {
   `);
 
 }
+
 
 
 
@@ -137,7 +140,7 @@ function sendRentalResponse() {
   
   <p>Here are some common steps you may find helpful</p><br><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br><br>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br><br>
 
   <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
 
@@ -158,6 +161,7 @@ function sendRentalResponse() {
   <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
 
 }
+
 
 
 
@@ -185,6 +189,8 @@ function sendPayslip() {
   `);
 
 }
+
+
 
 
 
@@ -745,6 +751,7 @@ function sendOwnerMove() {
 
 
 
+
 function sendApprovedNotice() {
   Office.context.mailbox.item.subject.setAsync("Your MoveZen Application is Approved!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
@@ -766,6 +773,8 @@ function sendApprovedNotice() {
 
 
 
+
+
 function sendEvictNotice() {
   Office.context.mailbox.item.subject.setAsync("Why it's crucial you avoid an eviction filing this week");
 
@@ -780,6 +789,8 @@ function sendEvictNotice() {
   <p><a href="https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/">https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/</a></p>`);
 
 }
+
+
 
 
 
@@ -1358,18 +1369,19 @@ function sendMoveInInfo() {
 
 
 
+
 function sendUtilityNotice() {
   Office.context.mailbox.item.subject.setAsync("It's important you connect utilities before your move, here's a tool to help");
 
-  prependHtmlBody(`<p>Hi!</p>
+  prependHtmlBody(`<p>Hi!</p><br>
 
   <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p><br>
   
-  <p>As a reminder, we will need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys to you.&nbsp;</p><br>
+  <p>As a reminder, we'll' need your account numbers for your utilities as well as your renter&#39;s insurance before we can release your new home&#39;s keys.</p><br>
   
-  <p>If you have not set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p><br>
+  <p>If you haven't set up utilities yet, we&#39;ve made it simple for you to do so!&nbsp;</p><br>
   
-  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted Victory partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p><br><br>
+  <p>Set up your utilities for FREE without the headache through Utility Hub - a trusted MoveZen partner to ease your moving experience. With the help of Utility Hub, our residents now have the option to compare utility rates and set up their new accounts (or transfer) for ALL of their utilities and renters insurance with one simple form.&nbsp;</p><br><br>
   
   <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p><br><br>
   
@@ -1380,12 +1392,14 @@ function sendUtilityNotice() {
 
 
 
+
+
 function sendGeneralRentInfo() {
   Office.context.mailbox.item.subject.setAsync("Thanks for your interest. Here's some info to help you get started");
 
   prependHtmlBody(`<p>Here are some common steps you may find helpful</p><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more),&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br>
   
   <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
   
@@ -1411,12 +1425,14 @@ function sendGeneralRentInfo() {
 
 
 
+
 function sendTurnoverReserve() {
   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
 
   prependHtmlBody(`asdf`);
 
 }
+
 
 
 
@@ -1442,6 +1458,1110 @@ function vendorInsur() {
 
 
 
+
+
+function sendTurnoverReserve() {
+  Office.context.mailbox.item.subject.setAsync("Important Move In Instructions to Ensure No Delays");
+
+  prependHtmlBody(`<p>Hi!</p>
+
+  <p>&nbsp;</p>
+  
+  <p>I hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on move-in day!&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Quick reminders.&nbsp; Did you transfer all utilities? Secure renters insurance? Pay in full at least 7 days prior to move in, OR by certified funds? Sign lease? Do you understand and feel comfortable with the information here?&nbsp; If not, contact&nbsp;me asap</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>To reduce stress and make it as convenient as possible you&#39;ll use the lockbox to get your entry key for a self move in. You won&#39;t have to meet anyone unless we arrange it specifically.&nbsp;<strong><span style="color:#45818e">The lockbox is located _____________</span></strong></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="color:#45818e"><strong>The lockbox code is __________.</strong></span>&nbsp; Please keep the key from this lockbox and leave the lockbox on the door. We&#39;lll swing by to grab it a few days after your move in date!</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>We&#39;ve left the following keys, passes, and devices inside <strong><span style="color:#45818e">______</span></strong></p>
+  
+  <p>&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>We&#39;re looking forward to having you, and hope you enjoy your move-in! If you have any questions or need any information at all, please do not hesitate to reach out anytime!&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Thanks!&nbsp;&nbsp;</p>`);
+
+}
+
+
+
+
+function sendMoveInspectionRemind() {
+  Office.context.mailbox.item.subject.setAsync("The move in inspection is meant for no other reason than to protect you");
+
+  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif">Hi!&nbsp; I hope your move-in went smoothly and you're enjoying the home! &nbsp;</span></p>
+
+  <p>&nbsp;</p>
+  
+  <p>We know you&#39;re busy but please complete this form within 10 days of your move-in date. It&#39;s to protect you so document all pre-existing damage, heavy wear and tear, or missing items. So you can be open about adding every little thing (please do), this is just a report, not a repair request. If you have repairs you can submit those in your portal</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Click&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvmT5NPpg104WVXuCqaf1vtsnV4KyNls6Q5mC-xm67QiUuRQ/viewform?usp=sf_link" style="color:#1155cc" target="_blank">here</a>&nbsp;to fill out the move-in inspection form online.&nbsp; Or you can fill out this paper copy, either is perfectly fine:&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/Teams/Edt6ja78kSBOqbEa6fyngPAB3qoIE2hIGMfwmv6aqWhANQ?e=9AcAcc" style="color:#1155cc">Paper move in inspection</a></p>
+  
+  <p>&nbsp;</p>
+  
+  <p>One crucial piece of advice, If at all possible try to group your minor service requests together.&nbsp; For most of the work we have to do, the majority of cost is tied up in getting someone out.&nbsp; If we can limit the number of trips by thoroughly&nbsp;reporting everything at once, it will dramatically increase our odds of getting things approved.&nbsp; Nothing will cause an owner to clamp down faster than contacting them several times within a few weeks for minor issues</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>&nbsp;If it&#39;s pretty serious, or a major repair is needed, please mention that in a text or email asap.&nbsp; This speeds up scheduling so your requests can be taken care of efficiently&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Thanks!&nbsp;</p>
+  `);
+
+}
+
+
+
+
+function sendComplaintResponse() {
+  Office.context.mailbox.item.subject.setAsync("We hear you and we're working on it");
+
+  prependHtmlBody(`<p>Hi</p>
+
+  <p>&nbsp;</p>
+  
+  <p>Thank you for providing this information.&nbsp; Clarity in these situations is crucial so to confirm I understand you properly, you have concerns about ********</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Is there any additional information you can provide to elaborate on your concerns, or potential issues so we can better look into it?</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>What kind of solution might you have in mind?</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>We&#39;re sorry for the dissatisfaction&nbsp;you&#39;re feeling, and we&#39;re going to jump on this</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Please allow us some time to research things, and we&#39;ll be back in touch soon.</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Thanks! Customer Service Team</p>`);
+
+}
+
+
+
+
+function sendMoveChecklist() {
+  Office.context.mailbox.item.subject.setAsync("The most important email we'll send regarding your move out");
+
+  prependHtmlBody(`<p>​Hi!<br />
+  <br />
+  We made this checklist to outline the most important steps needed to ensure you get a fair deposit return. &nbsp;Please review, follow the steps below, and let me know if you have any questions. This one is a little longer because it&#39;s very important and covers a complex topic<br />
+  <br />
+  <br />
+  It&#39;s crucial that you know, we don&#39;t own the home, we aren&#39;t directly affected by your move-out, and most of all we don&#39;t profit, enjoy, or want to charge deposits. &nbsp;In fact the whole process is one of the most dreaded and time-consuming parts of our business<br />
+  <br />
+  <br />
+  We are though bound by a common basic contract to literally use our best efforts to return the property in the same condition it was given to us and you, with the exception of basic wear and tear. &nbsp;We have no control outside of that, though some owners are a lot easier to deal with than others<br />
+  <br />
+  <br />
+  We drop the most difficult at a rate no other company can match, but we certainly don&#39;t always agree with the decisions our owners make. Our opinion is legally limited, but &nbsp;we&#39;re a highly reputable company and we try very hard to communicate with our owners at every step of the way to reduce friction between you two, and our firm advice usually carries a lot of weight<br />
+  <br />
+  <br />
+  Particularly if they&#39;re local and do their own inspection, owners often put huge amounts of pressure on us to charge for things we would not. &nbsp;Things get much more personal. Once again, we will fight hard for you if we feel that&rsquo;s right, and often do, but if you leave little for us to defend, there is only one person to blame<br />
+  <br />
+  <br />
+  We also understand the nuances of the law extremely well, and have attorneys we can and do consult, so if we determine a charge is necessary it will be within the law. &nbsp;Again, we don&#39;t profit from this process, but we spend tons of time and effort trying to bring both parties together, on the same page. There&#39;s no reason for us to risk breaking the law or even hurting our reputation over small sums that go to the owner<br />
+  <br />
+  <br />
+  You may be surprised to know but if the owner is going to break the law handling your deposit, we are not permitted to stop them. &nbsp;In instances where we dramatically part ways with the owner we&#39;ll usually make that clear to you, or completely end our relationship with them. &nbsp;In those cases the state is clear we must give them your deposit. &nbsp;Ironically, this seems to work surprisingly well as these owners are a lot more passive when their names are on the checks<br />
+  <br />
+  Here are crucial terms for your move-out that must be followed to ensure a full refund<br />
+  <br />
+  &nbsp;</p>
+  
+  <ul>
+    <li>All rent and other account fees must be paid in full. &nbsp;Security deposits are never to be used for rent and would result in an eviction filing before you move out</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>We professionally clean all homes, so instead of trying to make a place perfect, just focus on extreme issues like crusted ovens, mildew-covered showers, greasy surfaces etc. &nbsp;Basic cleanings aren&#39;t charged, but extensive ones are</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Carpets need to be professionally cleaned. (Receipt is required from a professional)</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Do not touch up paint or use a magic eraser as they cause more problems than benefits. &nbsp;Fingerprints and light scuffs are best cleaned with light, long strokes using a soft, clean, damp cloth and simple windex. &nbsp;This simple step can reduce paint needs dramatically</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Outside hoses must be disconnected and stored</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Grass, bushes, and flower beds must be in decent condition and mowed</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Clean out your dryer lint trap</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Any items moved from their original places need to be returned</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>The refrigerator, stove, oven, and microwave must be reasonably clean, defrosted, and plugged in, running at normal settings</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Empty the ice bucket, and turn off the ice maker off prior to vacating</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>All personal property, including furniture, motor vehicles and all other items not on the property when you moved in, must be removed from the home and surrounding property. Anything left behind is abandoned and will be disposed of at your expense. &nbsp;Leaving junk in the property also increases the chances that you&#39;ll be charged for an extensive cleaning</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>If you have grass, make sure it&#39;s well-watered before you leave. &nbsp;Daily return trips to water grass to save it, because it&#39;s on its last breath, is a costly charge</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Make your final trash pickup arrangements. Definitely don&#39;t cancel service with full cans. &nbsp;It&#39;s a huge hassle for us to take your trash out. &nbsp;We realize those leaving town can&#39;t return and put them out, and we don&#39;t always charge. If your move-out shows other signs of disrespect we will. &nbsp;So for that reason, trash left in cans after keys are returned is chargeable. If you can&#39;t, please let us know, and what day it&#39;s picked up</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Don&#39;t disconnect utilities early without notifying our office first. &nbsp;It&#39;s not always allowed by the owner, but we usually talk them into transferring early if you like. This is especially crucial in winter as busted pipes will be your responsibility. &nbsp;Set thermostats to 60 degrees in winter, and 78 in summer</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>Don&#39;t leave clogged drains</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>All doors and windows must be properly locked or fastened</li>
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <ul>
+    <li>All keys and garage door remotes must be returned to our office (unless instructed to leave inside) by 5 PM the next day after your move out, including non-business days. Owners have and can force us to charge for those extra days. Also, pool keys, mailbox keys, parking passes, etc</li>
+  </ul>
+  
+  <p><br />
+  <br />
+  Once keys are returned, you are not given the opportunity to take additional steps to avoid a charge. &nbsp;That&#39;s a common complaint that surprises us. &nbsp;Obviously, do it while you live there. Owners expect us to move quickly on addressing &nbsp;these items and relisting, so waiting on someone else to have them taken care of is not an option<br />
+  <br />
+  <br />
+  We document extremely well with photos, and refund/report within 30 days of your &quot;lease end date&quot;<br />
+  <br />
+  <br />
+  <br />
+  Most importantly, use common sense, don&rsquo;t destroy something in an effort to hide or improve it. &nbsp;If you have questions, ask! &nbsp;We are literally here to help smooth this process out now, rather than fight through it later. &nbsp;We often have great tips for problems that could help you a lot<br />
+  <br />
+  <br />
+  Thanks!</p>`);
+
+}
+
+
+
+
+function sendUnseenDisclaimer() {
+  Office.context.mailbox.item.subject.setAsync("Site Unseen Company Warning Disclaimer");
+
+  prependHtmlBody(`<p>​Hi!<br />
+  <br />
+  Below is our site unseen disclaimer. &nbsp;You&#39;ve probably already been warned, but this is consistently one of the biggest mistakes renters make in our experience. &nbsp;We aren&#39;t going to shoulder the responsibility for this decision in any way, that is the price for us not disallowing it altogether. &nbsp;It routinely hurts multiple relationships and creates large amounts of headaches, so we take a zero tolerance view. All potential residents will have to sign an unseen waiver, and that also in our view waives your right to complain about all but egregious failings. &nbsp;That&#39;s how starkly we have to word this process, to avoid being blamed</p>
+  
+  <p><br />
+  <br />
+  With most rental homes, even quite new, there are almost always a lot of worn or non functional things here and there. We certainly don&#39;t highlight any shortcomings in our ads.</p>
+  
+  <p><br />
+  <br />
+  If you even lean towards the picky side you will surely be disappointed by most rental homes.</p>
+  
+  <p><br />
+  <br />
+  The other issue is that before lease signing we can more easily negotiate with the owner if some smaller issue is a deal-breaker.</p>
+  
+  <p><br />
+  <br />
+  However, at move-in, they tend to shut down on handling aesthetic repairs which then makes you unhappy with us, even though it&#39;s legally out of our hands and we likely tried hard. We are very limited in what we can decide to do as the owner has the final say on all decisions over a token amount, and they are not likely to invest a lot into a home once a tenant has been secured.</p>
+  
+  <p><br />
+  <br />
+  Repairs are always handled, but smaller punch list items, older paint, carpet wear, yard cleanup, cosmetic items etc are examples of items that are completely optional for the owner. If extremely unhappy we can rerent the property so that a new tenant moves in as you are moving out, but the hold payment is non-refundable, and once you move in we are operating under occupied lease terms. Finally, while it has been proven to still be ineffective, if you can have someone preview the home that you trust, that can at least be helpful</p>
+  
+  <p><br />
+  <br />
+  Thanks, Customer Service Team</p>`);
+
+}
+
+
+
+
+function sendReferenceQuestions() {
+  Office.context.mailbox.item.subject.setAsync("Rental Reference Questions for a Former Tenant");
+
+  prependHtmlBody(`<p>​Hello, we've' received a rental application for -----------------------------.
+  <br />
+  <br />
+  We wanted to write to ask if you could provide us with a reference regarding your experience with them as their landlord. &nbsp;Attached you&#39;ll find their signed authorization. &nbsp;Please let us know if you have any questions. &nbsp;Thanks!<br />
+  <br />
+  <br />
+  Lease term dates?<br />
+  <br />
+  <br />
+  Rental rate?<br />
+  <br />
+  <br />
+  How many late payments have been made throughout the lease term?<br />
+  <br />
+  <br />
+  Any payments after the 15th?<br />
+  <br />
+  &nbsp;<br />
+  Has the unit been inspected recently? What was the condition upon last entrance?<br />
+  <br />
+  <br />
+  Any complaints such as noise, domestic, pet, ect?<br />
+  <br />
+  <br />
+  Are they satisfying the lease term as agreed?<br />
+  <br />
+  <br />
+  Would you rent to this tenant again?<br />
+  <br />
+  <br />
+  Thanks!</p>`);
+
+}
+
+
+
+
+function sendPlacementInfo() {
+  Office.context.mailbox.item.subject.setAsync("Here are the next steps for us to neatly finalize things for you");
+
+  prependHtmlBody(`<table cellspacing="0" style="border-collapse:collapse; font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif; width:100%">
+	<tbody>
+		<tr>
+			<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+			<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:600px">
+				<tbody>
+					<tr>
+						<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="text-align:center; vertical-align:top">
+												<h2><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">MoveZen Placement Only Information Update</span></h2>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+			<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:600px">
+				<tbody>
+					<tr>
+						<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; max-width:100%; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top">
+												<h4 style="text-align:center"><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:20px"><span style="color:#949494"><span style="font-family:Georgia"><em><span style="color:#696969"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:23px"><strong>Important Details for Placement Only Management</strong></span></span></span></em></span></span></span></span></span></span></h4>
+
+												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575">(when we send funds, how contact info is exchanged, etc)</span></span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="text-align:center; vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/bllWmKk12ceyPNUSCu0_31xcLzo_irur8Nn3DxHCWPOk9ZsdmdYUoqKSS_BX-3RvXyRIbqI4IhGGnbZ-sZa0TKLiVWFIOWIoshnW0ZTFG7XMosnyDRdqqRGgJwfIxQzWMaTA0SEdpykliq_zL_wo2onaWA7dkoMPiAo=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/a6cc3d63-36a9-45ee-a279-6323028af4b4.jpg" style="border:0px; display:inline; height:auto; max-width:1280px; outline:none; padding-bottom:0px; vertical-align:bottom; width:564px" /></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="background-color:#1d8387; border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="background-color:#1d8387; text-align:center; vertical-align:top">
+															<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#ffffff">Thank you for choosing Victory to handle your tenant placement needs. This email will cover the details of the process from handing the tenant over to you to when we send funds.&nbsp;&nbsp;<br />
+															<br />
+															First!&nbsp; &nbsp;We need you to email us detailed instructions on where tenants should pay their rent (after move in), and also how they should report maintenance.&nbsp;&nbsp;Remember, the more detailed, the less likely a tenant can claim misunderstanding.&nbsp; Do this now to avoid delays or mistakes!<br />
+															<br />
+															A few simple points to keep in mind are&hellip;</span></span></span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="text-align:center; vertical-align:top">&nbsp;
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● We never disburse any funds until tenant has taken possession of the property<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● Because we are transferring both tenant funds, and owner funds, we prefer to mail these checks so it&rsquo;s clearly noted on the memo line. However ACH is an option if needed.<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● We finalize accounting around the 10th, and the 19th. Rental funds (owner income) will typically be sent on the next accounting day after move in.<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● Remember the difference between a fee (owner keeps, non refundable) and a deposit (must be refunded or legally applied to the charges it was intended to cover).<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● Funds labeled as deposits are required by law&nbsp;to be held in a NC trust account until the tenant vacates.<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● For that reason, and due to notification requirements, we don&rsquo;t rush tenant deposits to mail. They will usually be sent within a couple weeks of rental funds, or within 30 days.<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● We are phenomenal at handling problem tenants. While we try hard to stand by our work, many avoidable problems arise due to weak management, inattention, or inconsistency. Simply having problems with a tenant is not a direct reflection on our placement choice. Should they arise, we are happy to offer advice at a minimum.<br />
+															&nbsp;</span></span></p>
+
+															<p><span style="font-size:14px"><span style="font-family:Helvetica">● Around move in time, you will receive a form outlining what deposits were paid, as well as contact information for your tenant. Your contact information will also be included, &amp; we&rsquo;ll copy both parties. This form will instruct the tenant on important aspects of their lease including where to pay rent.<br />
+															&nbsp;</span></span></p>
+															<span style="font-size:14px"><span style="font-family:Helvetica">● We use a standard NC lease that&#39;s written by the NC Bar Association and sets the most common standards for NC leasing.&nbsp; One of those standards is not considering rent to be late until after the 5th.&nbsp; We cannot change our lease as it&#39;s copyrighted, and we also are forbidden from writing lengthy clauses.&nbsp; We can use a copy or clause that you provide to us if you&#39;d like.&nbsp; However, we cannot verify the enforceability of your own lease / clauses.</span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2">View a sample lease&nbsp;<a href="https://drive.google.com/file/d/1x_-Eb5r_BrpdCBLQBLusmvMiDpkFgP5Z/view?usp=sharing" style="color:#007c89" target="_blank">here...</a>&nbsp; Note:&nbsp; For placement we are not listed anywhere on the lease, otherwise this is essentially the copy that we will use so you will want to notify us of any simple additions you might like to make<br />
+															<br />
+															View a sample of the contact / instruction exchange form we use once a tenant is secured,&nbsp;<a href="https://drive.google.com/file/d/1fFT1qTzlEM_rIkfGOFJTeWtnozaRUafS/view?usp=sharing" style="color:#007c89" target="_blank">here...</a><br />
+															&nbsp;</span></span></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+													<tbody>
+														<tr>
+															<td style="text-align:center; vertical-align:top">
+															<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/yCZKQ-hNiQu48WKX0_97NAiauUpNY63VIwWJPAdYKvWcnSxjbptS1mJgNfAmaM_u8adVQGBasi0YRPX12EoCAHBA8pjlde4m_QF9JmbAfjxugm1ZJ77jR_PSFeVrLqFohkGG6DzdVV06Cm0GC36n-zcLpX2CyR9Pluk=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/861d683d-a5d3-47fd-8710-ae3a600461bc.jpg" style="border:0px; float:right; height:106px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:200px" /></span><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Clarity regarding move out expectations will go a long way toward a smooth experience</span></span><br />
+															<br />
+															<span style="font-family:tahoma,verdana,segoe,sans-serif">We notify tenants of potential security deposit charges using a predetermined list of costs.&nbsp; These are of course relative and can vary, but it is a very good benchmark that you can use to determine fair and legal charges after your tenant moves out.&nbsp; Take a look and let us know if you have any questions,&nbsp;<a href="https://drive.google.com/file/d/1G8kN6hpjusSj8WuRRDWWWZCSenMd5c7p/view?usp=sharing" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td>&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellspacing="0" style="border-collapse:collapse; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<table align="left" cellspacing="0" style="border-collapse:collapse; width:282px">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/tXtDnUFER6IPw-eAoehdHrK_IYJmgBzdMEKyqd-wyr_YsNcYEj30miEvzTtSkAk0iaxY5_NbbECfRgqdW7bniRjZ5CREFZEAoZHxyOJCUXkhDvRoQXE35H7wNdh7w-eQAMaj-kEEbiJPiiPfYbY-CdtERPPxN9IiCMU=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/d3699700-7215-4d68-82f4-5d719f9ab189.jpg" style="border:0px; height:auto; max-width:1280px; outline:none; vertical-align:bottom; width:264px" /></td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; width:282px">
+												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><strong>The Nightmare of Home&nbsp;Warranties for Landlords</strong><br />
+												<br />
+												More and more single family homes are being marketed with a home warranty policy. This is the seller&rsquo;s way of trying to convince the buyer that if something breaks during the first year of ownership, the warranty policy will cover the expense and the buyer will be 100% satisfied. But, in our personal experience, home warranties are more of a nightmare than a benefit to investors and landlords.&nbsp; More&nbsp;<a href="https://victoryrealestateinc.com/nightmare-home-warranties-landlords/" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top"><a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/MoveInInspection.pdf" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; width:282px">
+												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://drive.google.com/file/d/1qwkEsRP1k64aC6-iRTevKxGVo8eV7VDS/view?usp=sharing" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong></span></span><br />
+												<br />
+												We provide tenants with this form, and notify them that it&#39;s important they return it to you within 14 days of move in.&nbsp; It is intended to note damage that was preexisting before they moved in.&nbsp; It is a very good idea to request this from them several times if need be.&nbsp; From there you should inspect it for potential concerns, and finally consider if you should address any of the issues noted<br />
+												&nbsp;</span></span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:0px; border-top:0px; vertical-align:top">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>`);
+
+}
+
+
+
+
+function sendLeaseBreakNotice() {
+  Office.context.mailbox.item.subject.setAsync("Helpful tips and next steps for breaking your lease the safe way");
+
+  prependHtmlBody(`<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:600px">
+	<tbody>
+		<tr>
+			<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="text-align:center; vertical-align:top">
+									<h2>MoveZen Tips on Getting Out of Your Lease Early</h2>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:600px">
+	<tbody>
+		<tr>
+			<td style="border-bottom:0px; border-top:0px; vertical-align:top">
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; max-width:100%; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top">
+									<h4 style="text-align:center"><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:20px"><span style="color:#949494"><span style="font-family:Georgia"><em><span style="color:#696969"><strong><span style="font-size:23px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Breaking your lease the easy way</span></span></strong><br />
+									<span style="font-size:14px"><span style="font-family:tahoma,verdana,segoe,sans-serif">We completely understand that at times breaking your lease is unavoidable.&nbsp; We help tenants through the process all the time, and usually it goes quite smoothly.&nbsp; Assuming you keep the home in great shape, and easily available for showings you should be released from your obligation with relative ease!&nbsp; Be sure to follow these steps and tips well</span></span></span></em></span></span></span></span></span></span></h4>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td style="text-align:center; vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/bllWmKk12ceyPNUSCu0_31xcLzo_irur8Nn3DxHCWPOk9ZsdmdYUoqKSS_BX-3RvXyRIbqI4IhGGnbZ-sZa0TKLiVWFIOWIoshnW0ZTFG7XMosnyDRdqqRGgJwfIxQzWMaTA0SEdpykliq_zL_wo2onaWA7dkoMPiAo=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/a6cc3d63-36a9-45ee-a279-6323028af4b4.jpg" style="border:0px; display:inline; height:auto; max-width:1280px; outline:none; padding-bottom:0px; vertical-align:bottom; width:564px" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="background-color:#1d8387; border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="background-color:#1d8387; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#ffffff">Remember!&nbsp; Everyone is required to keep utilities connected and available, as well as rent payments on schedule even while working to release you from the lease.&nbsp; Not only is it hard to find a replacement when utilities are off, we will connect them and charge a hefty fee.&nbsp; Your move out date is critical as someone else will be right behind you.&nbsp; We can&#39;t have delays.&nbsp; We need a couple days to properly turn the property over so keep that in mind, and if you leave the place in rough shape it will likely lead to delays and additional charges</span></span></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif">The process of rerenting a home to end any liablity you have under the lease is one of the most technically difficult parts of renting.&nbsp; For that reason we&#39;ve put together a very detailed handout on the issue, complete with practice examples to cover multiple issues.</span><br />
+												<br />
+												On the surface it&#39;s simple, you&#39;d be responsible for all rent still due per your lease (rent due = number of days left, X your daily rental rate), plus any costs associated with marketing or costs such as an HOA registration fee.&nbsp; So..</span></span>
+
+												<p><br />
+												<span style="font-size:14px"><span style="font-family:Helvetica">Then, when we secure a new tenant, they will cover many of the remaining days on your lease.&nbsp; We take their daily&nbsp;rate, multiply that by the days left on your lease, and subtract that from what you owe.&nbsp; Often there is very little cost to you when breaking your lease, but some situations are much tougher.&nbsp; For example, if you rented in summer and we are marketing again in the winter, it&#39;s likely we won&#39;t get the same rate so you&#39;ll owe more than if we get the same rate.&nbsp; Read lengthy details&nbsp;<a href="https://drive.google.com/file/d/1o2zGGjJYyhcJy_EobdwMy1Bm3f_eZW4F/view?usp=sharing" style="color:#007c89" target="_blank">here</a><br />
+												<br />
+												(Rent due + standard move-in costs) - (daily rate of new tenant X days left on your lease) = Final balance</span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">First Thing! : The first thing you must do is send the following form back to us signed.&nbsp; If you would like for us to send a digital copy that you can sign online just let us know.&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1pQIyNNvVp0ICh_FEkhaLn2vqQ1-Mem1-/view?usp=sharing" style="color:#007c89" target="_blank">here...</a></span></span><br />
+												<br />
+												&nbsp;</span></span></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table border="1" cellspacing="0" style="border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="text-align:center; vertical-align:top">
+												<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/yCZKQ-hNiQu48WKX0_97NAiauUpNY63VIwWJPAdYKvWcnSxjbptS1mJgNfAmaM_u8adVQGBasi0YRPX12EoCAHBA8pjlde4m_QF9JmbAfjxugm1ZJ77jR_PSFeVrLqFohkGG6DzdVV06Cm0GC36n-zcLpX2CyR9Pluk=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/861d683d-a5d3-47fd-8710-ae3a600461bc.jpg" style="border:0px; float:right; height:106px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:200px" />The next thing, assuming you understand how the process works (if not speak up), is to do everything we can do make the home desirable and show ready.&nbsp; We have an in depth document that we spent a lot of time and great experience on, and these tips could make the difference between you owing almost nothing, or&nbsp;having to cover a serious shortfall.&nbsp; You may think it is a good idea to meet prospective tenants yourself, and that often does work out well as you can really sell the situation, but beware of subtle personality quirks.&nbsp; Many tenants and owners aren&#39;t cut out for marketing rentals as people can be very touchy regarding their housing situation.&nbsp; When in doubt, let us handle it.&nbsp; Read about preparing your home&nbsp;<a href="https://drive.google.com/file/d/1z97qpzhOoxMvgy4ArGKiJZjOIUyB7fPQ/view?usp=sharing" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table border="1" cellspacing="0" style="background-color:#1d8387; border-collapse:collapse; border:1px solid; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="background-color:#1d8387; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#ffffff"><span style="font-family:tahoma,verdana,segoe,sans-serif">Once we have received the hold payment from your replacement (cleared funds), you&#39;ll be sent the following document that outlines the ever critical date the new tenant will be moving in (we will need a few days of vacancy to get the place properly turned over so account for that), and your basic costs&nbsp;<a href="https://drive.google.com/open?id=1RbUTe7uCdugwC6xTYudhG_JaV68E6N-V" style="color:#007c89" target="_blank"><span style="color:#ff8c00">here...</span></a></span></span></span></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+				<tbody>
+					<tr>
+						<td>
+						<table cellspacing="0" style="border-collapse:collapse; border-top:2px solid #eaeaea; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
+										<tbody>
+											<tr>
+												<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Want to receive a full deposit refund?<br />
+												<br />
+												<img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/CwfPP2Gm-5YfYvz5K6444Dg9roPKWkfhdd7OXtlSfZmSRuEA1XQlqiZwULb8I_YwQWLKUNKp6Nb6uevEOhWaLWl1OvJ5HlH9zj2tzRir3Cm1t9vPquO0x9pteiuSci22RoBnhg7ro38lLKQ1TYrW2N_n6qeczo8GpnM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/2b2d3f7c-7177-4467-99ae-85167e03537a.jpg" style="border:0px; float:right; height:99px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:150px" />Since you&#39;ll be moving soon you may want to take a look at how / what we are most often forced to charge for.&nbsp; Anything on this list is almost certain to be deducted from your deposit, so it&#39;s only sensible to take care of it right now so you get the added benefit of a home that shows better and is more desirable.&nbsp; Our contractors can handle any of this for you at great rates, so contact us if you&#39;d like to get that process started.&nbsp; View common charges&nbsp;<a href="https://drive.google.com/file/d/1G8kN6hpjusSj8WuRRDWWWZCSenMd5c7p/view?usp=sharing" style="color:#007c89" target="_blank">here...&nbsp;&nbsp;</a></span></span></span></span></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+				<tbody>
+					<tr>
+						<td>
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; min-width:100%; table-layout:fixed; width:100%">
+				<tbody>
+					<tr>
+						<td>
+						<table cellspacing="0" style="border-collapse:collapse; min-width:100%; width:100%">
+							<tbody>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellspacing="0" style="border-collapse:collapse; width:100%">
+				<tbody>
+					<tr>
+						<td style="vertical-align:top">
+						<table align="left" cellspacing="0" style="border-collapse:collapse; width:282px">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top"><img alt="" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/tXtDnUFER6IPw-eAoehdHrK_IYJmgBzdMEKyqd-wyr_YsNcYEj30miEvzTtSkAk0iaxY5_NbbECfRgqdW7bniRjZ5CREFZEAoZHxyOJCUXkhDvRoQXE35H7wNdh7w-eQAMaj-kEEbiJPiiPfYbY-CdtERPPxN9IiCMU=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/d3699700-7215-4d68-82f4-5d719f9ab189.jpg" style="border:0px; height:auto; max-width:1280px; outline:none; vertical-align:bottom; width:264px" /></td>
+								</tr>
+								<tr>
+									<td style="vertical-align:top; width:282px">
+									<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px"><strong>Here are some move checklists we&#39;ve compiled over the years</strong></span></span><br />
+									<br />
+									<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/Moving_Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
+									<br />
+									Trulia general moving tips &amp; checklist&nbsp;<a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/Trulia-Moving-Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
+									<br />
+									33 Moving tips to make life easier&nbsp;<a href="https://www.buzzfeed.com/peggy/brilliant-moving-tips?utm_term=.twbx7qAne#.ynN3YDyem" style="color:#007c89" target="_blank">here</a></span></span><br />
+									<br />
+									<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Movezen</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;21 tips for a seamless move&nbsp;<a href="https://movezen360.com/21-tips-for-a-seamless-move/" style="color:#007c89" target="_blank">here</a></span></span></span></span></span></p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
+							<tbody>
+								<tr>
+									<td style="vertical-align:top"><a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/MoveInInspection.pdf" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+								</tr>
+								<tr>
+									<td style="vertical-align:top; width:282px">
+									<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://drive.google.com/file/d/1qwkEsRP1k64aC6-iRTevKxGVo8eV7VDS/view?usp=sharing" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
+									<br />
+									You should have filled one of these out shortly after moving in.&nbsp; It would be a great idea to do a fresh inspection now, then take out your original inspection and compare the two for differences.&nbsp;<br />
+									<br />
+									Aside from minor everyday wear and tear any changes will need to be addressed and doing so now will make rerenting much easier!</span></span><br />
+									&nbsp;</span></span></span></p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>`);
+
+}
+
+
+
+
+function sendNoLongHold() {
+  Office.context.mailbox.item.subject.setAsync("The home you inquired about isn't available for a pretty good while");
+
+  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​</span>Hi!<br />
+  <br />
+  Thank you&nbsp;very much&nbsp;for your inquiry.&nbsp; Unfortunately, we can&#39;t hold a&nbsp;vacant or soon to be,&nbsp;rental longer&nbsp;than&nbsp;<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​45</span>&nbsp;days&nbsp;in most cases</span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">If you check our site though some may show available dates well into the future, and these would be an option.&nbsp; If you see something specific let us know and we&#39;ll nail down the details</span></span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><a href="https://victoryrealestateinc.com/rental-search/?status=for-rent" style="color:#1155cc" target="_blank">https://victoryrealestateinc.com/rental-search/?status=for-rent</a></span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">If you add us on Facebook you&#39;ll receive updates on properties as&nbsp;they come available.&nbsp;&nbsp;</span></span></span></span></span></p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><a href="https://business.facebook.com/VictoryPropertyManagement/" style="color:#1155cc" target="_blank">https://business.facebook.com/VictoryPropertyManagement/</a>&nbsp;</span></span></span></span></p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff">&nbsp;</span></span></span></span></p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">I&#39;d recommend that you track the market, and learn a&nbsp;lot about the&nbsp;communities&nbsp;and traffic&nbsp;patterns<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​,​</span>&nbsp;which will better serve you in&nbsp;finding the right home&nbsp;once the time is right. The rental market tends to move a lot faster these days</span></span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">If you&#39;re traveling and must secure something while you&#39;re in the area,&nbsp;</span><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">it&#39;ll most likely have to&nbsp;</span>be tenant<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">&nbsp;occupied with a lease ending around the&nbsp;</span><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">time you&#39;ll be moving.&nbsp; That means scheduled showings etc, but if you think a home is the right one we can usually do that</span></span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We normally list about a month in advance of a home being vacant, however in hot market periods that can shorten up quite a bit</span></span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Hope these tips help a bit in your search.&nbsp; Let us know if we can answer any questions. Thanks!&nbsp;</span></span></span></span></span></p>`);
+
+}
+
+
+
+function sendPortalResetAll() {
+  Office.context.mailbox.item.subject.setAsync("A couple quick portal login steps");
+
+  prependHtmlBody(`<p>​Hi! &nbsp;Sorry you&rsquo;re having trouble getting your portal activated or logged in<br />
+  <br />
+  The first step is to clear your browser cookies or cache. &nbsp;You can google how to do that relatively easily as it depends on your web browser<br />
+  <br />
+  <br />
+  You could simply try a less commonly used browser, or possibly private/incognito mode if you&rsquo;re familiar with that<br />
+  <br />
+  <br />
+  If you&#39;re still having trouble after those two steps, we&rsquo;ll simply need to delete your login and start from scratch which almost always works. &nbsp;Just reach back out to us and we&rsquo;ll run that through pretty quickly<br />
+  <br />
+  <br />
+  Thanks!</p>
+  `);
+
+}
+
+
+
+function sendFieldStaff() {
+  Office.context.mailbox.item.subject.setAsync("Thanks for your interest in our field support role!");
+
+  prependHtmlBody(`<p>​Hello!<br />
+  <br />
+  Thanks for responding to our &nbsp;listing for the field staff 1099 position we have available!<br />
+  <br />
+  We wanted to ask you a few questions to get the conversation going to see if this relationship makes sense for you<br />
+  <br />
+  1.) &nbsp;What is your standard availability? &nbsp;While it&#39;s on an when available basis, we frequently get showing requests at the last minute, or quick inspections/field tasks that need to be done same day so we would need a good idea of what availability you have, and if it is only weekend or weekday availability.<br />
+  <br />
+  2.) &nbsp;If we would like to move forward with bringing you on to work with us, when would you be able to start?<br />
+  <br />
+  3.) &nbsp;How long are you expecting to be involved with this position? &nbsp;I.e. are you just looking for something temporary (a few weeks, months, etc.) or longer term?<br />
+  <br />
+  4.) &nbsp;What zipcode do you live in? &nbsp;<br />
+  <br />
+  5.) &nbsp;This is a question that ties into question 4. &nbsp;How far are you willing to travel for the jobs? &nbsp;Most properties will be close by (within a half an hour), but we do have some properties that are further away and we need to know how far you are willing to travel to get to the properties.<br />
+  <br />
+  6.) &nbsp;The position consists of property showings, picking up lockboxes, taking photos/completing inspections, posting notices, and various other field-related tasks. &nbsp;Do you have experience in any of these areas? &nbsp;<br />
+  <br />
+  7.) &nbsp;Lastly, consistent access to reliable transportation is imperative for this position as it is a field service position, not an in-office position. &nbsp;Please confirm whether or not you have consistent access to reliable transportation.<br />
+  <br />
+  We look forward to hearing back from you!<br />
+  <br />
+  Thanks!</p>`);
+
+}
+
+
+
+function sendShowNotice() {
+  Office.context.mailbox.item.subject.setAsync("Sorry, it's the dreaded showing notice");
+
+  prependHtmlBody(`<p>​Hi! &nbsp;Yes this is the dreaded showing notice. &nbsp;We hate to bother you, but owners get really hard to deal with if we aren&#39;t making headway to ensure they don&#39;t go a long period of time with a mortgage and no income. That&#39;s the last thing you want before we have to report your move out to them. &nbsp;In fact, the number 1 way to ensure an owner isn&#39;t a pain after move out, is to have a replacement lined up and moving in not too long after you. They are dramatically less concerned about your potential charges in those cases, it never fails</p>
+
+  <p><br />
+  <br />
+  Over the next 30-45 days we&#39;ll be contacting you to set up showings, and will give as much notice as we can, and if you can not be contacted we will set them up for 24 hours out between the hours of 9am and 6pm, if you have specific requests in those time periods please just let us know. &nbsp;We want to limit headaches and make this as smooth for you as reasonably possible. &nbsp;We&#39;ll have a lockbox on the door that is only used for staff and licensed agents</p>
+  
+  <p><br />
+  <br />
+  We will be respectful of your situation, and ask that you be understanding that every day the house is vacant costs the owner, so we try to cut down on that, and the sooner we can get showings in, the sooner the showings will stop, as we will likely get it rented quicker that way</p>
+  
+  <p><br />
+  <br />
+  If you have pets, please keep them in a safe place, and if you have an even slightly potentially aggressive dog/pet, obviously let us know that as well</p>
+  
+  <p><br />
+  <br />
+  During the time that we are showing we ask that you keep the house as clean and straight as possible. Tthis will also help it get rented quicker, and help us to stop bothering you!</p>
+  
+  <p><br />
+  <br />
+  We will be in touch and appreciate your patience and understanding<br />
+  <br />
+  Thanks!</p>`);
+
+}
+
+
+// function sendTurnoverReserve() {
+//   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
+
+//   prependHtmlBody(`asdf`);
+
+// }
+
+
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
     document.getElementById("insertSorry").onclick = sendSorry;
@@ -1456,74 +2576,18 @@ Office.onReady(info => {
     document.getElementById("insertGeneralRentInfo").onclick = sendGeneralRentInfo;
     document.getElementById("insertTurnoverReserve").onclick = sendTurnoverReserve;
     document.getElementById("insertVendorInsur").onclick = sendVendorInsur;
-
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // personalized owner negotaition start
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // personalized rent negotaition start
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move In info!
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // zMove in inspection reminder to residents
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // complaint template
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move out checklist
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Unseen disclaimer
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Reference quesions
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // placement only
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // inherited tenants
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // how to break lease
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // 30 day hold max
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Move out start
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Portal reset with help link
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Time to schedule self show
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Field service ad reply
-    // document.getElementById("insertVendorInsur").onclick = sendVendorInsur;  // Rerent showing notice
-
-
+    document.getElementById("insertMoveInReminders").onclick = sendMoveInReminders
+    document.getElementById("insertMoveInspectionRemind").onclick = sendMoveInspectionRemind; 
+    document.getElementById("insertComplaintResponse").onclick = sendComplaintResponse;
+    document.getElementById("insertMoveChecklist").onclick = sendMoveChecklist;
+    document.getElementById("insertUnseenDisclaimer").onclick = sendUnseenDisclaimer; 
+    document.getElementById("insertReferenceQuestions").onclick = sendRentalQuestions; 
+    document.getElementById("insertPlacementInfo").onclick = sendPlacementInfo; 
+    document.getElementById("insertLeaseBreakNotice").onclick = sendLeaseBreakNotice; 
+    document.getElementById("insertNoLongHold").onclick = sendNoLongHold; 
+    document.getElementById("insertPortalResetAll").onclick = sendPortalResetAll;  
+    document.getElementById("insertFieldStaff").onclick = sendFieldStaff; 
+    document.getElementById("insertShowNotice").onclick = sendShowNotice;  
+    
   }
 });
-
-
-
-
-
-// /*
-//  * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
-//  * See LICENSE in the project root for license information.
-//  */
-
-// /* global global, Office, self, window */
-
-// Office.onReady(() => {
-//   // If needed, Office.js is ready to be called
-// });
-
-// /**
-//  * Shows a notification when the add-in command is executed.
-//  * @param event {Office.AddinCommands.Event}
-//  */
-// function action(event) {
-//   const message = {
-//     type: Office.MailboxEnums.ItemNotificationMessageType.InformationalMessage,
-//     message: "Performed action.",
-//     icon: "Icon.80x80",
-//     persistent: true,
-//   };
-
-//   // Show a notification message
-//   Office.context.mailbox.item.notificationMessages.replaceAsync("action", message);
-
-//   // Be sure to indicate when the add-in command function is complete
-//   event.completed();
-// }
-
-// function getGlobal() {
-//   return typeof self !== "undefined"
-    // ? self
-//     : typeof window !== "undefined"
-//     ? window
-//     : typeof global !== "undefined"
-//     ? global
-//     : undefined;
-// }
-
-// const g = getGlobal();
-
-// // The add-in command functions need to be available in global scope
-// g.action = action;
