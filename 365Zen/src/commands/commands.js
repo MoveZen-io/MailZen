@@ -151,7 +151,7 @@ function sendRentalResponse() {
 
   <p>Finally you can often find answers faster using this helpful policy and questions search</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p><br><br>
+  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
 
   <br><br>
 

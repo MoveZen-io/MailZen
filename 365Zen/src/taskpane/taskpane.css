@@ -117,9 +117,22 @@ h2 {
     font-size: 10px;
 }
 
+hr {
+    /* make color teal; */
+    border: 1px solid #20B2AA;
+}
+
+
+#screenshotTitle {
+    color: #c25e0d;
+}
+
+
+
+
 .grid-header {
     background-color: #FFFFFF; /* White color */
-    color: #c9781c; /* Light teal color */
+    color: #c25e0d; /* Light teal color */
     border: 1px solid #D3D3D3; /* Light gray color for subtle borders */
     padding: 3px;
     font-size: 10px;
