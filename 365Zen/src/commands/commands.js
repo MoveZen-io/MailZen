@@ -2556,9 +2556,42 @@ function sendShowNotice() {
 
 
 function sendMoveInInfo() {
-  Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
+  Office.context.mailbox.item.subject.setAsync("Final Move In Instructions");
 
-  prependHtmlBody(`asdf`);
+  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​</span>H<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​i!​</span></span></p>
+
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on your move-in day!&nbsp;</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">To reduce stress and add convenience you won&#39;t have to meet anyone to get moved in,&nbsp;you&#39;ll get a key from the lockbox.&nbsp; You have 10 days to complete your move in inspection so save those things for later</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">The lockbox is located _________________________</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">The lockbox code is _________________.&nbsp; Please keep the key from this lockbox and leave the lockbox on the door. We&#39;ll swing by to remove it a few days after your move in date!</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Once inside you should have a total of:&nbsp; &nbsp;_________________ITEMIZE DEVICES LEFT</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We&#39;re excited to have you!&nbsp; If you have any questions or need any information at all, please let me know asap</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Thanks!&nbsp;&nbsp;</span></span></span></span></p>
+  
+  <p>&nbsp;</p>
+  `);
 
 }
 
