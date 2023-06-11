@@ -33,7 +33,7 @@ function sendSorry() {
 
 
 
-function sendApp() {
+function sendApp(event) {
   Office.context.mailbox.item.subject.setAsync("How to get your MoveZen application moving forward fast!");
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
   prependHtmlBody(` <p>Thank you for beginning the application process!<br />
@@ -59,9 +59,14 @@ function sendApp() {
   <br />
   <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EUGHc7hjjnlMvpxiqDjwhK4BMbfvsSwl5YqoA7JIHH0xAQ?e=8ELHHz">Sample NC lease</a></p>`);
 
+  if (event && typeof event.completed === 'function') {
+    event.completed();
+  }
+
 }
 
-
+// Expose your function to the global scope
+window.sendApp = sendApp;
 
 
 function sendVendor() {
@@ -2560,6 +2565,22 @@ function sendShowNotice() {
 //   prependHtmlBody(`asdf`);
 
 // }
+
+
+function dropdownOption() {
+  sendShowNotice();
+  // your template insertion logic here
+}
+
+Office.onReady(info => {
+  if (info.host === Office.HostType.Outlook) {
+    Office.addin.setStartupBehavior(Office.StartupBehavior.load);
+    Office.actions.associate('insertTemplate1', insertTemplate1);
+    // For more templates, associate more functions
+  }
+});
+
+
 
 
 Office.onReady(info => {
