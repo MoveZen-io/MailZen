@@ -795,7 +795,7 @@ function sendEvictNotice() {
 
 
 
-function sendMoveInInfo() {
+function sendMoveInReminders() {
   Office.context.mailbox.item.subject.setAsync("Move In Info - Thank you for choosing MoveZen!");
 
   prependHtmlBody(`<table align="center" cellspacing="0" id="m_-5455835037964899298m_-1598750376468129031gmail-m_1119163153852469884bodyTable" style="border-collapse:collapse; height:4165.69px; padding:0px; width:599.965px">
