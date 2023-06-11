@@ -1437,7 +1437,7 @@ function sendTurnoverReserve() {
 
 
 
-function vendorInsur() {
+function sendVendorInsur() {
   Office.context.mailbox.item.subject.setAsync("Let's get your insurance updated to avoid critical delays");
 
   prependHtmlBody(`<p>Hi!</p>
