@@ -1503,7 +1503,7 @@ function sendTurnoverReserve() {
 function sendMoveInspectionRemind() {
   Office.context.mailbox.item.subject.setAsync("The move in inspection is meant for no other reason than to protect you");
 
-  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif">Hi!&nbsp; I hope your move-in went smoothly and you're enjoying the home! &nbsp;</span></p>
+  prependHtmlBody(`<p> I hope your move-in went smoothly and you're enjoying the home!</p>
 
   <p>&nbsp;</p>
   
@@ -2434,9 +2434,12 @@ function sendLeaseBreakNotice() {
 function sendNoLongHold() {
   Office.context.mailbox.item.subject.setAsync("The home you inquired about isn't available for a pretty good while");
 
-  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​</span>Hi!<br />
-  <br />
-  Thank you&nbsp;very much&nbsp;for your inquiry.&nbsp; Unfortunately, we can&#39;t hold a&nbsp;vacant or soon to be,&nbsp;rental longer&nbsp;than&nbsp;<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​45</span>&nbsp;days&nbsp;in most cases</span></p>
+  prependHtmlBody(`<p>Hi!</p>
+
+  <p>&nbsp;</p>
+  
+  <p><br />
+  Thank you&nbsp;very much&nbsp;for your inquiry.&nbsp; Unfortunately, we can&#39;t hold a&nbsp;vacant or soon to be,&nbsp;rental longer&nbsp;than&nbsp;<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​45</span>&nbsp;days&nbsp;in most cases</p>
   
   <p>&nbsp;</p>
   
@@ -2558,40 +2561,22 @@ function sendShowNotice() {
 function sendMoveInInfo() {
   Office.context.mailbox.item.subject.setAsync("Final Move In Instructions");
 
-  prependHtmlBody(`<p><span style="font-family:trebuchet ms,sans-serif"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​</span>H<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​i!​</span></span></p>
-
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on your move-in day!&nbsp;</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">To reduce stress and add convenience you won&#39;t have to meet anyone to get moved in,&nbsp;you&#39;ll get a key from the lockbox.&nbsp; You have 10 days to complete your move in inspection so save those things for later</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">The lockbox is located _________________________</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">The lockbox code is _________________.&nbsp; Please keep the key from this lockbox and leave the lockbox on the door. We&#39;ll swing by to remove it a few days after your move in date!</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Once inside you should have a total of:&nbsp; &nbsp;_________________ITEMIZE DEVICES LEFT</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We&#39;re excited to have you!&nbsp; If you have any questions or need any information at all, please let me know asap</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Thanks!&nbsp;&nbsp;</span></span></span></span></p>
-  
-  <p>&nbsp;</p>
-  `);
+  prependHtmlBody(`<p>​Hi!<br />
+  <br />
+  We hope everything is coming together smoothly for your move! &nbsp;I wanted to send you a note to cover the move-in process to ensure there are no hiccups on your move-in day!<br />
+  <br />
+  To reduce stress and add convenience you won&#39;t have to meet anyone to get moved in, you&#39;ll get a key from the lockbox. &nbsp;You have 10 days to complete your move in inspection so save those things for later<br />
+  <br />
+  The lockbox is located _________________________<br />
+  <br />
+  The lockbox code is _________________. &nbsp;Please keep the key from this lockbox and leave the lockbox on the door. We&#39;ll swing by to remove it a few days after your move in date!<br />
+  <br />
+  <br />
+  Once inside you should have a total of: &nbsp; _________________ITEMIZE DEVICES LEFT<br />
+  <br />
+  We&#39;re excited to have you! &nbsp;If you have any questions or need any information at all, please let me know asap<br />
+  <br />
+  Thanks! &nbsp;</p>`);
 
 }
 
