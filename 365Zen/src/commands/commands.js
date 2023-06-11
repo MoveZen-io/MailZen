@@ -2554,12 +2554,26 @@ function sendShowNotice() {
 }
 
 
+
+function sendMoveInInfo() {
+  Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
+
+  prependHtmlBody(`asdf`);
+
+}
+
+
 // function sendTurnoverReserve() {
 //   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
 
 //   prependHtmlBody(`asdf`);
 
 // }
+
+
+
+
+
 
 
 Office.onReady(info => {
