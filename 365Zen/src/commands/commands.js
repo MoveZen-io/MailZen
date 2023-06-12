@@ -2439,37 +2439,37 @@ function sendNoLongHold() {
   <p>&nbsp;</p>
   
   <p><br />
-  Thank you&nbsp;very much&nbsp;for your inquiry.&nbsp; Unfortunately, we can&#39;t hold a&nbsp;vacant or soon to be,&nbsp;rental longer&nbsp;than&nbsp;<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​45</span>&nbsp;days&nbsp;in most cases</p>
+  Thank you&nbsp;very much&nbsp;for your inquiry.&nbsp; Unfortunately, we can&#39;t hold a&nbsp;vacant or soon to be,&nbsp;rental longer&nbsp;than&nbsp;​45&nbsp;days&nbsp;in most cases</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">If you check our site though some may show available dates well into the future, and these would be an option.&nbsp; If you see something specific let us know and we&#39;ll nail down the details</span></span></span></span></span></p>
+  <p>If you check our site though some may show available dates well into the future, and these would be an option.&nbsp; If you see something specific let us know and we&#39;ll nail down the details</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><a href="https://victoryrealestateinc.com/rental-search/?status=for-rent" style="color:#1155cc" target="_blank">https://victoryrealestateinc.com/rental-search/?status=for-rent</a></span></span></span></span></p>
+  <p><a href="https://victoryrealestateinc.com/rental-search/?status=for-rent" target="_blank">https://victoryrealestateinc.com/rental-search/?status=for-rent</a></p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">If you add us on Facebook you&#39;ll receive updates on properties as&nbsp;they come available.&nbsp;&nbsp;</span></span></span></span></span></p>
+  <p>If you add us on Facebook you&#39;ll receive updates on properties as&nbsp;they come available.&nbsp;&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><a href="https://business.facebook.com/VictoryPropertyManagement/" style="color:#1155cc" target="_blank">https://business.facebook.com/VictoryPropertyManagement/</a>&nbsp;</span></span></span></span></p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff">&nbsp;</span></span></span></span></p>
-  
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:trebuchet ms,sans-serif">I&#39;d recommend that you track the market, and learn a&nbsp;lot about the&nbsp;communities&nbsp;and traffic&nbsp;patterns<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">​,​</span>&nbsp;which will better serve you in&nbsp;finding the right home&nbsp;once the time is right. The rental market tends to move a lot faster these days</span></span></span></span></span></p>
+  <p><a href="https://business.facebook.com/VictoryPropertyManagement/" target="_blank">https://business.facebook.com/VictoryPropertyManagement/</a>&nbsp;</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">If you&#39;re traveling and must secure something while you&#39;re in the area,&nbsp;</span><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">it&#39;ll most likely have to&nbsp;</span>be tenant<span style="font-family:&quot;trebuchet ms&quot;,sans-serif">&nbsp;occupied with a lease ending around the&nbsp;</span><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">time you&#39;ll be moving.&nbsp; That means scheduled showings etc, but if you think a home is the right one we can usually do that</span></span></span></span></span></p>
+  <p>I&#39;d recommend that you track the market, and learn a&nbsp;lot about the&nbsp;communities&nbsp;and traffic&nbsp;patterns​,​&nbsp;which will better serve you in&nbsp;finding the right home&nbsp;once the time is right. The rental market tends to move a lot faster these days</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">We normally list about a month in advance of a home being vacant, however in hot market periods that can shorten up quite a bit</span></span></span></span></span></p>
+  <p>If you&#39;re traveling and must secure something while you&#39;re in the area,&nbsp;it&#39;ll most likely have to&nbsp;be tenant&nbsp;occupied with a lease ending around the&nbsp;time you&#39;ll be moving.&nbsp; That means scheduled showings etc, but if you think a home is the right one we can usually do that</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="font-size:small"><span style="color:#222222"><span style="font-family:Arial,Helvetica,sans-serif"><span style="background-color:#ffffff"><span style="font-family:&quot;trebuchet ms&quot;,sans-serif">Hope these tips help a bit in your search.&nbsp; Let us know if we can answer any questions. Thanks!&nbsp;</span></span></span></span></span></p>`);
+  <p>We normally list about a month in advance of a home being vacant, however in hot market periods that can shorten up quite a bit</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Hope these tips help a bit in your search.&nbsp; Let us know if we can answer any questions. Thanks!&nbsp;</p>`);
 
 }
 
