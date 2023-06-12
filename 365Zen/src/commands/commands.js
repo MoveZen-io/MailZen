@@ -1426,12 +1426,12 @@ function sendGeneralRentInfo() {
 
 
 
-function sendTurnoverReserve() {
-  Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
+// function sendTurnoverReserve() {
+//   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
 
-  prependHtmlBody(`asdf`);
+//   prependHtmlBody(`asdf`);
 
-}
+// }
 
 
 
@@ -1461,39 +1461,31 @@ function sendVendorInsur() {
 
 
 function sendTurnoverReserve() {
-  Office.context.mailbox.item.subject.setAsync("Important Move In Instructions to Ensure No Delays");
+  Office.context.mailbox.item.subject.setAsync("Efficiently turning over a rental starts long before your tenant has moved out");
 
   prependHtmlBody(`<p>Hi!</p>
-
-  <p>&nbsp;</p>
   
-  <p>I hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on move-in day!&nbsp;</p>
+  <p>Even for the best of moves we&#39;ll have to clean the home, carpet, and touch up paint in most cases.&nbsp; NC is clear t hat we are not to make security deposit deductions for those items in particular.&nbsp; So we know at a minimum we&#39;ll need what we call the &quot;basics&quot;, and that small list often runs a good portion of one months rent on their own</p>
   
   <p>&nbsp;</p>
   
-  <p>Quick reminders.&nbsp; Did you transfer all utilities? Secure renters insurance? Pay in full at least 7 days prior to move in, OR by certified funds? Sign lease? Do you understand and feel comfortable with the information here?&nbsp; If not, contact&nbsp;me asap</p>
+  <p>It&#39;s very rare that we wouldn&#39;t need you to send us funds relatively close to one month&#39;s rent before we can get started, and it&#39;s not a good idea to show homes these days unless they are close to move in ready</p>
   
   <p>&nbsp;</p>
   
-  <p>To reduce stress and make it as convenient as possible you&#39;ll use the lockbox to get your entry key for a self move in. You won&#39;t have to meet anyone unless we arrange it specifically.&nbsp;<strong><span style="color:#45818e">The lockbox is located _____________</span></strong></p>
+  <p>So we came up with a simple solution.&nbsp; Most hold a large reserve for your entire time with them. In our case, if you&#39;ll authorize your account manager to keep the final months rent before your tenant moves out, in most cases we won&#39;t need you to send additional funds and won&#39;t have to risk any delays</p>
   
   <p>&nbsp;</p>
   
-  <p><span style="color:#45818e"><strong>The lockbox code is __________.</strong></span>&nbsp; Please keep the key from this lockbox and leave the lockbox on the door. We&#39;lll swing by to grab it a few days after your move in date!</p>
+  <p>If the figures seem as though they may far exceed that ask for an estimate on total cost and let&#39;s rough out a budget together with your AM based on the pre move out photos, and we can report on any issues as we move forward</p>
   
   <p>&nbsp;</p>
   
-  <p>We&#39;ve left the following keys, passes, and devices inside <strong><span style="color:#45818e">______</span></strong></p>
+  <p>We don&#39;t keep a months rent without specific bills, or a direct approval to do that so we&#39;ll need you to initiate this process</p>
   
   <p>&nbsp;</p>
   
-  <p>&nbsp;</p>
-  
-  <p>We&#39;re looking forward to having you, and hope you enjoy your move-in! If you have any questions or need any information at all, please do not hesitate to reach out anytime!&nbsp;</p>
-  
-  <p>&nbsp;</p>
-  
-  <p>Thanks!&nbsp;&nbsp;</p>`);
+  <p>Let us know if you have any questions. Thanks!&nbsp; Customer Service Team</p>`);
 
 }
 
@@ -2561,22 +2553,37 @@ function sendShowNotice() {
 function sendMoveInInfo() {
   Office.context.mailbox.item.subject.setAsync("Final Move In Instructions");
 
-  prependHtmlBody(`<p>​Hi!<br />
-  <br />
-  We hope everything is coming together smoothly for your move! &nbsp;I wanted to send you a note to cover the move-in process to ensure there are no hiccups on your move-in day!<br />
-  <br />
-  To reduce stress and add convenience you won&#39;t have to meet anyone to get moved in, you&#39;ll get a key from the lockbox. &nbsp;You have 10 days to complete your move in inspection so save those things for later<br />
-  <br />
-  The lockbox is located _________________________<br />
-  <br />
-  The lockbox code is _________________. &nbsp;Please keep the key from this lockbox and leave the lockbox on the door. We&#39;ll swing by to remove it a few days after your move in date!<br />
-  <br />
-  <br />
-  Once inside you should have a total of: &nbsp; _________________ITEMIZE DEVICES LEFT<br />
-  <br />
-  We&#39;re excited to have you! &nbsp;If you have any questions or need any information at all, please let me know asap<br />
-  <br />
-  Thanks! &nbsp;</p>`);
+  prependHtmlBody(`<p>Hi!</p>
+
+  <p>&nbsp;</p>
+  
+  <p>I hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on move-in day!&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Quick reminders.&nbsp; Did you transfer all utilities? Secure renters insurance? Pay in full at least 7 days prior to move in, OR by certified funds? Sign lease? Do you understand and feel comfortable with the information here?&nbsp; If not, contact&nbsp;me asap</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>To reduce stress and make it as convenient as possible you&#39;ll use the lockbox to get your entry key for a self move in. You won&#39;t have to meet anyone unless we arrange it specifically.&nbsp;<strong><span style="color:#45818e">The lockbox is located _____________</span></strong></p>
+  
+  <p>&nbsp;</p>
+  
+  <p><span style="color:#45818e"><strong>The lockbox code is __________.</strong></span>&nbsp; Please keep the key from this lockbox and leave the lockbox on the door. We&#39;lll swing by to grab it a few days after your move in date!</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>We&#39;ve left the following keys, passes, and devices inside <strong><span style="color:#45818e">______</span></strong></p>
+  
+  <p>&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>We&#39;re looking forward to having you, and hope you enjoy your move-in! If you have any questions or need any information at all, please do not hesitate to reach out anytime!&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Thanks!&nbsp;&nbsp;</p>`);
 
 }
 
