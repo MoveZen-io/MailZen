@@ -1463,9 +1463,11 @@ function sendVendorInsur() {
 function sendTurnoverReserve() {
   Office.context.mailbox.item.subject.setAsync("Efficiently turning over a rental starts long before your tenant has moved out");
 
-  prependHtmlBody(`<p>Hi!</p>
+  prependHtmlBody(`<p>Hi!</p><br>
   
-  <p>Even for the best of moves we&#39;ll have to clean the home, carpet, and touch up paint in most cases.&nbsp; NC is clear t hat we are not to make security deposit deductions for those items in particular.&nbsp; So we know at a minimum we&#39;ll need what we call the &quot;basics&quot;, and that small list often runs a good portion of one months rent on their own</p>
+  <p>Hope you're doing well.<br><br>
+  
+  Even for the best of moves we&#39;ll have to clean the home, carpet, and touch up paint in most cases.&nbsp; NC is clear t hat we are not to make security deposit deductions for those items in particular.&nbsp; So we know at a minimum we&#39;ll need what we call the &quot;basics&quot;, and that small list often runs a good portion of one months rent on their own</p>
   
   <p>&nbsp;</p>
   
