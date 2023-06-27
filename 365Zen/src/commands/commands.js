@@ -2590,16 +2590,42 @@ function sendMoveInInfo() {
 }
 
 
-// function sendTurnoverReserve() {
-//   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
 
-//   prependHtmlBody(`asdf`);
+function sendRenewalIntro() {
+  Office.context.mailbox.item.subject.setAsync("Time is growing short to renew your lease");
 
-// }
+  prependHtmlBody(`<p>Hi!</p>
 
-
-
-
+  <p>Hope you&rsquo;re doing well today&nbsp;</p>
+  
+  <p>We understand renewing or moving decisions are never fun, but those decisions must be made. For a rental owner though, waiting and wondering if your resident will extend can be really difficult, and it&rsquo;s rarely&nbsp;necessary. Even if personal issues aren&#39;t at play, most of our owners are mom and pop types, and it&#39;s a very big deal if they are going to have a couple of months of vacancy, plus turnover costs. &nbsp;We simply can&#39;t saddle them with that kind of stress, and expect them to respond well to future requests. Dragging this process out is a great way to motivate them to sell instead of re-rent&nbsp;</p>
+  
+  <p>We try hard to communicate this policy early, often, and clearly because we know it&#39;s tough, and tempting to delay. We&#39;ll work with all requests as best we can, but the lease notice deadline is unavoidable, so difficult or drawn out owner negotiations will quickly end with you having to make a faster and likely much more stressful decision than necessary&nbsp;</p>
+  
+  <p>Here&rsquo;s an important tip: Many of our owners partner with us because we write extensively on marketing timing and other nuanced points to rental investment management. &nbsp;Owners are a lot less likely to do repairs if their home takes 3 months to rent, instead of 1. For that reason, you&#39;ll find it hard to end a lease extension on the final day of the month (also great for you due to less vendor competition), July/August, or anytime in Winter except perhaps late February. &nbsp;This is the most important reason it&#39;s crucial that you don&#39;t delay planning, and locking in this renewal as your options will be a bit limited. Our owners rarely allow month to month leases due to the uncertainty that causes, but we can usually negotiate shorter term extensions outside of very slow seasonal periods&nbsp;</p>
+  
+  <p>MoveZen is well known for looking out for our residents, but we also try hard to be fair to owners, as well as understand and cater to their highest priorities. This way we can get more of your priorities out of them when needed. While not always clear at the moment, this is a win win approach over the long run&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p><strong>A few important notes:&nbsp;</strong></p>
+  
+  <p>There&#39;s a $345 charge for renewing your lease after the 59-day move-out notice period begins. Otherwise, we never charge&nbsp;for a renewal, so this is a charge no one ever has to pay&nbsp;</p>
+  
+  <p>Our team can&#39;t make exceptions to these fees - they&#39;re company policy&nbsp;</p>
+  
+  <p>If a renewal hasn&rsquo;t been signed by all parties 60 days prior to the end date on your most recent lease or renewal, this will serve as notice to vacate on your lease end date of the most recent lease&nbsp;</p>
+  
+  <p>And lastly, all changes to your lease need to be in writing. Negotiations can go in many directions, but the active terms are clearly outlined in your current lease until we sign a new one&nbsp;</p>
+  
+  <p>We&#39;re here to help you navigate this process, so please don&#39;t hesitate to reach out if you have any questions or need some extra guidance. We&#39;re all about making this a win-win situation for you and our owners&nbsp;</p>
+  
+  <p>If you have problems,&nbsp;or feel there are unnecessary delays, the help desk is a great way to get a second opinion. Feel free to use it for minor questions. An owner not offering terms you like is out of our hands. We likely advised them against it several times. Those are the terms, and you will need to decide within them&nbsp;</p>
+  
+  <p>&nbsp;</p>
+  
+  <p>Thanks so much for your understanding. We appreciate you being a part of our MoveZen community!&nbsp;</p>>`);
+};
 
 
 
@@ -2628,7 +2654,8 @@ Office.onReady(info => {
     document.getElementById("insertNoLongHold").onclick = sendNoLongHold; 
     document.getElementById("insertPortalResetAll").onclick = sendPortalResetAll;  
     document.getElementById("insertFieldStaff").onclick = sendFieldStaff; 
-    document.getElementById("insertShowNotice").onclick = sendShowNotice;  
+    document.getElementById("insertShowNotice").onclick = sendShowNotice;
+	document.getElementById("insertRenewalIntro").onclick = sendRenewalIntro;  
     
   }
 });
