@@ -24,9 +24,9 @@ function sendSorry() {
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we've' accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
 
-<p><a href="https://www.facebook.com/VictoryPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
+<p><a href="https://www.facebook.com/MoveZenPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
 
-<p><a href="https://twitter.com/victoryrealty" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
+<p><a href="https://twitter.com/movezen" target="_blank">Follow us on Twitter to Receive Automatic Updates on Price Reductions and New Listings</a></p>`);
 
 }
 
@@ -55,7 +55,7 @@ function sendApp() {
   <br />
   You&#39;ll also find crucial information on how to address pre-move in repairs and if you hope to get a pet during your time in the home. &nbsp;<br />
   <br />
-  <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EZgzJDZR3LhMkdV820qNJs4BohN5zw1amoXeB2OuWVlikA?e=cPpkVQ">Victory Rules &amp; Regulations Link</a><br />
+  <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EZgzJDZR3LhMkdV820qNJs4BohN5zw1amoXeB2OuWVlikA?e=cPpkVQ">MoveZen Rules &amp; Regulations Link</a><br />
   <br />
   <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EUGHc7hjjnlMvpxiqDjwhK4BMbfvsSwl5YqoA7JIHH0xAQ?e=8ELHHz">Sample NC lease</a></p>`);
 
@@ -69,14 +69,14 @@ function sendVendor() {
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
   prependHtmlBody(`<p>​Hello!<br />
   <br />
-  Thanks for your interest in becoming a vendor with Victory Property Management. Attached, you&#39;ll find an information packet and some forms for your reference. In order to complete your vendor onboardings, we will need the following:<br />
+  Thanks for your interest in becoming a vendor with MoveZen Property Management. Attached, you&#39;ll find an information packet and some forms for your reference. In order to complete your vendor onboardings, we will need the following:<br />
   &nbsp;</p>
   
   <ul>
     <li><a href="https://movezen.sharepoint.com/:b:/s/Teams/EfwwnpuUK9FIjAvfRLb6kcwBz8TEiRRt7bNnXbOTFVQJ9w?e=bZxTYG">Learn who we are</a></li>
     <li>Provide your business/individual name</li>
     <li><a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf">Submit a signed W9 form</a></li>
-    <li>Provide a certificate of insurance listing Victory Real Estate Inc as an additional insured/interest at the following address: 4002 1/2 Oleander Dr. Suite 1A, Wilmington, NC 28403</li>
+    <li>Provide a certificate of insurance listing MoveZen as an additional insured/interest at the following address: 4002 1/2 Oleander Dr. Suite 1A, Wilmington, NC 28403</li>
     <li>Share your mailing address and contact information</li>
     <li>Describe your field of work and the service area you cover</li>
   </ul>
@@ -104,7 +104,7 @@ function sendRentalResponse() {
   
   <br><br>
   
-  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/" target="_blank">Link to Access Self Showings</a></p>
+  <p><a href="https://movezen360.com/schedule-a-self-showing/" target="_blank">Link to Access Self Showings</a></p>
   
   <br><br>
   
@@ -112,7 +112,7 @@ function sendRentalResponse() {
   
   <br><br>
   
-  <p>When are&nbsp;you&nbsp;looking&nbsp;to&nbsp;make&nbsp;your&nbsp;big&nbsp;move&nbsp;and&nbsp;become&nbsp;a&nbsp;Victory&nbsp;resident?&nbsp;</p>
+  <p>When are&nbsp;you&nbsp;looking&nbsp;to&nbsp;make&nbsp;your&nbsp;big&nbsp;move&nbsp;and&nbsp;become&nbsp;a&nbsp;MoveZen&nbsp;resident?&nbsp;</p>
   
   <br><br>
   
@@ -140,21 +140,21 @@ function sendRentalResponse() {
   
   <p>Here are some common steps you may find helpful</p><br><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br><br>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://movezen360.com/application-acceptance-qualification-general-faq/">https://movezen360.com/application-acceptance-qualification-general-faq/</a></p><br><br>
 
   <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p><br><br>
+  <p><a href="https://movezen360.com/schedule-a-self-showing/">https://movezen360.com/schedule-a-self-showing/</a></p><br><br>
 
   <p>If you would like to apply you can do that here</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
+  <p><a href="https://movezen360.com/apply-for-a-victory-property-management-rental-home/">https://movezen360.com/apply-for-a-victory-property-management-rental-home/</a></p>
 
   <br><br>
 
   <p>Finally you can often find answers faster using this helpful policy and questions search</p><br><br>
 
-  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
+  <p><a href="https://movezen360.com/helpdesk/">https://movezen360.com/helpdesk/</a></p>
 
   <br><br>
 
@@ -269,7 +269,7 @@ function sendOwnerMove() {
 												<br />
 												<strong>Why else?</strong>&nbsp; One major matter we need to consider is how tenant paid repairs will be handled.&nbsp; If we&#39;re relisting for rent the process is simple and will be in line with how we have handled them in the past.&nbsp; Basically we&#39;ll handle it and you have nothing to worry about.&nbsp; If however you are doing something different with the property, it usually makes more sense for us to simply charge the deposit, and send you those funds so you can handle the repairs yourself.<br />
 												<br />
-												<strong>Why?&nbsp;</strong> The answer is simple, when we do repairs we try our hardest to keep costs as low as possible without hurting our chances of rerental.&nbsp; Also due to security deposit laws we are restricted to mostly targeted fixes rather than general improvement. So rental repairs or updates are vastly different from sales or owner occupied updates.&nbsp; A prime example would be paint.&nbsp; We typically focus on specific walls, touch up, and where we can get the most bang for the buck.&nbsp; This almost always excludes doors and trim.&nbsp; After 5 years on the rental market we may be able to squeak by without painting trim, but if you attempt that approach on the sales market you&#39;ll regret it.&nbsp; A sales quality paint job will likely run 3X what we would have charged.&nbsp; We discuss this issue in depth <a href="https://VictoryRealEstateInc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=67e3ee93f2&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here...</a></span></span></span></td>
+												<strong>Why?&nbsp;</strong> The answer is simple, when we do repairs we try our hardest to keep costs as low as possible without hurting our chances of rerental.&nbsp; Also due to security deposit laws we are restricted to mostly targeted fixes rather than general improvement. So rental repairs or updates are vastly different from sales or owner occupied updates.&nbsp; A prime example would be paint.&nbsp; We typically focus on specific walls, touch up, and where we can get the most bang for the buck.&nbsp; This almost always excludes doors and trim.&nbsp; After 5 years on the rental market we may be able to squeak by without painting trim, but if you attempt that approach on the sales market you&#39;ll regret it.&nbsp; A sales quality paint job will likely run 3X what we would have charged.&nbsp; We discuss this issue in depth <a href="https://movezen360.com/investment-property-rent-ready-sell-ready-whats-difference/" style="color:#007c89" target="_blank">here...</a></span></span></span></td>
 											</tr>
 										</tbody>
 									</table>
@@ -716,7 +716,7 @@ function sendOwnerMove() {
 									<p><br />
 									<span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><strong>Landlords, in Light of a </strong><strong>Huge</strong><strong>&nbsp;Run Up in Rents &amp; Sale Prices, Do You Have an Endgame?</strong><br />
 									<br />
-									<span style="font-size:14px">You&#39;ve bought your rental property for the income stream and perhaps even in hope of future appreciation. While you may plan to own the property for a long, long time, a wise investor will have an endgame for your real estate. How long should you hold your real estate investment? When is a good time to sell the rental?&nbsp; &nbsp;<a href="https://VictoryRealEstateInc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=5cf323f542&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank"><span style="font-family:tahoma,verdana,segoe,sans-serif">Read more...</span></a></span></span></span></span></p>
+									<span style="font-size:14px">You&#39;ve bought your rental property for the income stream and perhaps even in hope of future appreciation. While you may plan to own the property for a long, long time, a wise investor will have an endgame for your real estate. How long should you hold your real estate investment? When is a good time to sell the rental?&nbsp; &nbsp;<a href="https://movezen360.com/landlords-light-huge-run-rents-sale-prices-endgame-2/" style="color:#007c89" target="_blank"><span style="font-family:tahoma,verdana,segoe,sans-serif">Read more...</span></a></span></span></span></span></p>
 									</td>
 								</tr>
 							</tbody>
@@ -725,14 +725,14 @@ function sendOwnerMove() {
 						<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
 							<tbody>
 								<tr>
-									<td style="vertical-align:top"><a href="https://VictoryRealEstateInc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=d6cf60f7e6&amp;e=ccbdb3fd00" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/CwfPP2Gm-5YfYvz5K6444Dg9roPKWkfhdd7OXtlSfZmSRuEA1XQlqiZwULb8I_YwQWLKUNKp6Nb6uevEOhWaLWl1OvJ5HlH9zj2tzRir3Cm1t9vPquO0x9pteiuSci22RoBnhg7ro38lLKQ1TYrW2N_n6qeczo8GpnM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/2b2d3f7c-7177-4467-99ae-85167e03537a.jpg" style="border:0px; height:auto; max-width:1280px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /> </a></td>
+									<td style="vertical-align:top"><a href="https://movezen360.com/the-hidden-cost-of-vacancy-to-landlords-rental-owners/" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/CwfPP2Gm-5YfYvz5K6444Dg9roPKWkfhdd7OXtlSfZmSRuEA1XQlqiZwULb8I_YwQWLKUNKp6Nb6uevEOhWaLWl1OvJ5HlH9zj2tzRir3Cm1t9vPquO0x9pteiuSci22RoBnhg7ro38lLKQ1TYrW2N_n6qeczo8GpnM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/2b2d3f7c-7177-4467-99ae-85167e03537a.jpg" style="border:0px; height:auto; max-width:1280px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /> </a></td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top; width:282px"><br />
 									<span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><strong>The Hidden Cost&nbsp;of Vacancy to Landlords &amp; Rental Owners</strong></span></span></span>
 									<p style="text-align:left"><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:14px">Each day your property sits vacant costs you. We strive to market your property aggressively to get the best quality tenant in the home at the best rate. We have said </span><span style="font-size:14px">may</span><span style="font-size:14px"> times before that a quality tenant will not overpay because they watch and compare for the best price. They too are looking for the best return on investment, just like you as the homeowner.</span></span></span></span></p>
 
-									<p style="text-align:left"><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:14px">Most homes lose at least $30 a day when vacant.&nbsp; <a href="https://VictoryRealEstateInc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=87c4301832&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">Read more...</a></span></span></span></span></p>
+									<p style="text-align:left"><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:14px">Most homes lose at least $30 a day when vacant.&nbsp; <a href="https://movezen360.com/the-hidden-cost-of-vacancy-to-landlords-rental-owners/" style="color:#007c89" target="_blank">Read more...</a></span></span></span></span></p>
 									</td>
 								</tr>
 							</tbody>
@@ -786,7 +786,7 @@ function sendEvictNotice() {
   
   <p>Thanks, Customer Team</p><br><br>
   
-  <p><a href="https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/">https://victoryrealestateinc.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/</a></p>`);
+  <p><a href="https://MoveZen360.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/">https://MoveZen360.com/why-you-should-never-allow-yourself-to-be-evicted-hint-we-never-accept-past-evictions/</a></p>`);
 
 }
 
@@ -1103,7 +1103,7 @@ function sendMoveInReminders() {
 													<tbody>
 														<tr>
 															<td style="vertical-align:top"><br />
-															<span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" style="color:#007c89" target="_blank"><img class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/RFCVjjodwQdGQ9D55D_dXkkBjleVQEpiR0haqonsnvUK-Bsn9SbQ8EjjWvmT-E-0EGYmePj6ABSKh9HWzjQhlIkmy5eWpKOTIOXYVJNrkXLsxYfpAw0vGY9jcKNv82z1o2aDFOd3X1RCn0L9vB5c_KOm1GWJJWhj1d0=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/4df8a1a9-68d7-4725-a63b-21616f5d225c.png" style="height:34px; outline:none; text-decoration-line:none; width:233px" /></a></span></span></span></td>
+															<span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><a href="https://MoveZen360.com/utility-hub-makes-moving-easier/" style="color:#007c89" target="_blank"><img class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/RFCVjjodwQdGQ9D55D_dXkkBjleVQEpiR0haqonsnvUK-Bsn9SbQ8EjjWvmT-E-0EGYmePj6ABSKh9HWzjQhlIkmy5eWpKOTIOXYVJNrkXLsxYfpAw0vGY9jcKNv82z1o2aDFOd3X1RCn0L9vB5c_KOm1GWJJWhj1d0=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/4df8a1a9-68d7-4725-a63b-21616f5d225c.png" style="height:34px; outline:none; text-decoration-line:none; width:233px" /></a></span></span></span></td>
 														</tr>
 													</tbody>
 												</table>
@@ -1207,13 +1207,13 @@ function sendMoveInReminders() {
 															<td style="vertical-align:top; width:282px">
 															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px"><strong>Here are some move checklists we&#39;ve compiled over the years</strong></span></span><br />
 															<br />
-															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=336aa94633&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a><br />
+															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://movezen360.com/wp-content/uploads/2018/02/Moving_Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
 															<br />
-															Trulia general moving tips &amp; checklist&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=f0a373ed76&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a><br />
+															Trulia general moving tips &amp; checklist&nbsp;<a href="https://movezen360.com/wp-content/uploads/2018/02/Trulia-Moving-Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
 															<br />
-															33 Moving tips to make life easier&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=742a788d9d&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a></span></span><br />
+															33 Moving tips to make life easier&nbsp;<a href="https://www.buzzfeed.com/peggy/brilliant-moving-tips?utm_term=.twbx7qAne#.ynN3YDyem" style="color:#007c89" target="_blank">here</a></span></span><br />
 															<br />
-															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Movezen</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;21 tips for a seamless move&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=5a853c6a4b&amp;e=ccbdb3fd00" style="color:#007c89" target="_blank">here</a></span></span></span></span></span></p>
+															<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Movezen</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;21 tips for a seamless move&nbsp;<a href="https://movezen360.com/21-tips-for-a-seamless-move/" style="color:#007c89" target="_blank">here</a></span></span></span></span></span></p>
 															</td>
 														</tr>
 													</tbody>
@@ -1222,11 +1222,11 @@ function sendMoveInReminders() {
 												<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
 													<tbody>
 														<tr>
-															<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=df063cde7f&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+															<td style="vertical-align:top"><a href="https://movezen360.com/landlords-property-managers-can-make-rental-property-inspections/" style="color:#1155cc" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
 														</tr>
 														<tr>
 															<td style="vertical-align:top; width:282px">
-															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=86658cbdfd&amp;e=ccbdb3fd00" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
+															<p><span style="font-size:16px"><span style="color:#757575"><span style="font-family:Helvetica"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://movezen360.com/landlords-property-managers-can-make-rental-property-inspections/" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
 															<br />
 															Tips to make the most of your inspection<br />
 															<br />
@@ -1290,7 +1290,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=6d02e991ab&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Facebook" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/qFht05wXKJYPVChSqXPNvc1fKWeX0ARJAOjh8GXW1FekOnnQWwgFxvi0sXmeC_gX7kPGmh9zqs_BK5qi-OggZUWwUDTVmFzl2nMLYVkeLOJG1GLy2GMDw2FSwi1lRUI=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="https://www.facebook.com/MoveZenPropertyManagement" style="color:#1155cc" target="_blank"><img alt="Facebook" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/qFht05wXKJYPVChSqXPNvc1fKWeX0ARJAOjh8GXW1FekOnnQWwgFxvi0sXmeC_gX7kPGmh9zqs_BK5qi-OggZUWwUDTVmFzl2nMLYVkeLOJG1GLy2GMDw2FSwi1lRUI=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1298,7 +1298,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=f1130871a1&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Twitter" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/N2Tp0PRtOw2d9fxkOv0uzHayVDLBY_VzizxiL-Dd48Fy12YDJsF-76WbOkn_oZRohKFnaZxIVseSCa0mIwH9gmJ7NAZmurDqOv26ZZGroibd2YTyVdsKHxKbz_-DpQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="https://twitter.com/movezen" style="color:#1155cc" target="_blank"><img alt="Twitter" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/N2Tp0PRtOw2d9fxkOv0uzHayVDLBY_VzizxiL-Dd48Fy12YDJsF-76WbOkn_oZRohKFnaZxIVseSCa0mIwH9gmJ7NAZmurDqOv26ZZGroibd2YTyVdsKHxKbz_-DpQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1306,7 +1306,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=4c5539b26d&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="YouTube" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/ukLwIcq0_BwHp3MKQ3JVcL_RusbSuHQBmUyVvwBEVwmTd9REOVwaGuRnIni4_8kBFxo7w90bclIRASj-q9ooUtGrh1Gsuvcw9yFyYoj7zImRlzTGD2bM_hH6zqpjPQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-youtube-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="https://www.youtube.com/victoryrealty0621a" style="color:#1155cc" target="_blank"><img alt="YouTube" class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/ukLwIcq0_BwHp3MKQ3JVcL_RusbSuHQBmUyVvwBEVwmTd9REOVwaGuRnIni4_8kBFxo7w90bclIRASj-q9ooUtGrh1Gsuvcw9yFyYoj7zImRlzTGD2bM_hH6zqpjPQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-youtube-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1314,7 +1314,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=8225e4f86d&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="LinkedIn" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/HqEBoUAkA3N5YazBXzVCbXCrr77KHTKEGZGql2Q6PeAuAglM245sN6V5A3Aow5J19qeDhbx3aiPlMBPMaZO6WCGmlFUYGjgssF5Yep15n9n7Tz9ACNxbN5yi3dlhGsk=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="https://www.linkedin.com/company/movezen-property-management" style="color:#1155cc" target="_blank"><img alt="LinkedIn" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/HqEBoUAkA3N5YazBXzVCbXCrr77KHTKEGZGql2Q6PeAuAglM245sN6V5A3Aow5J19qeDhbx3aiPlMBPMaZO6WCGmlFUYGjgssF5Yep15n9n7Tz9ACNxbN5yi3dlhGsk=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1322,7 +1322,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="https://victoryrealestateinc.us2.list-manage.com/track/click?u=550bd6ef99c9bde377800aeef&amp;id=6d2e1b9e15&amp;e=ccbdb3fd00" style="color:#1155cc" target="_blank"><img alt="Website" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/FsqqIPY-Nm2D_Bf5k5DgsUKhKOEwTAS6vKaecLtDq_Tq6x2vbHC_vsCGW9RAFS9OP1aZvcKTwGg22EslrJNCslVk361E_pOQ541PKuxb84ZyXgRNw0WgDMiMaQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="https://movezen360.com/property-management/" style="color:#1155cc" target="_blank"><img alt="Website" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/FsqqIPY-Nm2D_Bf5k5DgsUKhKOEwTAS6vKaecLtDq_Tq6x2vbHC_vsCGW9RAFS9OP1aZvcKTwGg22EslrJNCslVk361E_pOQ541PKuxb84ZyXgRNw0WgDMiMaQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1330,7 +1330,7 @@ function sendMoveInReminders() {
 																					<table align="left" cellspacing="0" style="border-collapse:collapse; display:inline">
 																						<tbody>
 																							<tr>
-																								<td style="vertical-align:top"><a href="mailto:rent@victoryrealestateinc.com" style="color:#1155cc" target="_blank"><img alt="Email" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/Q2GeX3Ltv09AGX_4HZwNpXsmmwQY0KQIB0fHvN2En05EvcjnqfX7is6jynxwIKUMo6m4WU7ICSAQ38Ay4ZJDx_wW5BWZ63cwp7tKE1M1ArQuuZFjgjAblgbA7tT-2mXuKQG7Q8I6=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
+																								<td style="vertical-align:top"><a href="mailto:rent@movezen360.com" style="color:#1155cc" target="_blank"><img alt="Email" class="gmail_canned_response_image" src="https://ci4.googleusercontent.com/proxy/Q2GeX3Ltv09AGX_4HZwNpXsmmwQY0KQIB0fHvN2En05EvcjnqfX7is6jynxwIKUMo6m4WU7ICSAQ38Ay4ZJDx_wW5BWZ63cwp7tKE1M1ArQuuZFjgjAblgbA7tT-2mXuKQG7Q8I6=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-96.png" style="border:0px; display:block; height:auto; max-width:48px; outline:none; text-decoration-line:none; width:48px" /></a></td>
 																							</tr>
 																						</tbody>
 																					</table>
@@ -1385,7 +1385,7 @@ function sendUtilityNotice() {
   
   <p><a href="https://www.theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p><br><br>
   
-  <p><a href="https://victoryrealestateinc.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
+  <p><a href="https://movezen360.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
 
 }
 
@@ -1399,21 +1399,21 @@ function sendGeneralRentInfo() {
 
   prependHtmlBody(`<p>Here are some common steps you may find helpful</p><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/">https://victoryrealestateinc.com/application-acceptance-qualification-general-faq/</a></p><br>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://movezen360.com/application-acceptance-qualification-general-faq/">https://movezen360.com/application-acceptance-qualification-general-faq/</a></p><br>
   
   <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
   
-  <p><a href="https://victoryrealestateinc.com/schedule-a-self-showing/">https://victoryrealestateinc.com/schedule-a-self-showing/</a></p><br>
+  <p><a href="https://movezen360.com/schedule-a-self-showing/">https://movezen360.com/schedule-a-self-showing/</a></p><br>
   
   <p>If you would like to apply you can do that here</p><br>
   
-  <p><a href="https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/">https://victoryrealestateinc.com/apply-for-a-victory-property-management-rental-home/</a></p>
+  <p><a href="https://movezen360.com/apply-for-a-victory-property-management-rental-home/">https://movezen360.com/apply-for-a-victory-property-management-rental-home/</a></p>
   
   <br><br>
   
   <p>Finally you can often find answers faster using this helpful policy and questions search</p><br>
   
-  <p><a href="https://victoryrealestateinc.com/helpdesk/">https://victoryrealestateinc.com/helpdesk/</a></p>
+  <p><a href="https://movezen360.com/helpcenter/">https://movezen360.com/helpcenter/</a></p>
   
   <br><br>
   
@@ -1442,9 +1442,9 @@ function sendVendorInsur() {
 
   prependHtmlBody(`<p>Hi!</p>
 
-  <p>It looks like your liability insurance with Victory Real Estate Inc listed as an additional insured is out of date on our end</p>
+  <p>It looks like your liability insurance with Victory Real Estate Inc, dba MoveZen Property Management listed as an additional insured is out of date on our end</p>
   
-  <p>Please have your insurance company send us an updated a current COI with&nbsp;&quot;Victory Real Estate Inc&quot; listed as an additional insured.&nbsp;<br />
+  <p>Please have your insurance company send us an updated a current COI with&nbsp;&quot;Victory Real Estate Inc, dba MoveZen Property Management listed as an additional insured.&nbsp;<br />
   <br />
   COI, Additional Insured/Interest is as follows:<br />
   Victory Real Estate Inc<br />
@@ -1871,7 +1871,7 @@ function sendPlacementInfo() {
 													<tbody>
 														<tr>
 															<td style="background-color:#1d8387; text-align:center; vertical-align:top">
-															<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#ffffff">Thank you for choosing Victory to handle your tenant placement needs. This email will cover the details of the process from handing the tenant over to you to when we send funds.&nbsp;&nbsp;<br />
+															<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#ffffff">Thank you for choosing MoveZen to handle your tenant placement needs. This email will cover the details of the process from handing the tenant over to you to when we send funds.&nbsp;&nbsp;<br />
 															<br />
 															First!&nbsp; &nbsp;We need you to email us detailed instructions on where tenants should pay their rent (after move in), and also how they should report maintenance.&nbsp;&nbsp;Remember, the more detailed, the less likely a tenant can claim misunderstanding.&nbsp; Do this now to avoid delays or mistakes!<br />
 															<br />
@@ -1948,9 +1948,9 @@ function sendPlacementInfo() {
 												<table cellspacing="0" style="background-color:#dc7d44; border-collapse:collapse; min-width:100%; width:100%">
 													<tbody>
 														<tr>
-															<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2">View a sample lease&nbsp;<a href="https://drive.google.com/file/d/1x_-Eb5r_BrpdCBLQBLusmvMiDpkFgP5Z/view?usp=sharing" style="color:#007c89" target="_blank">here...</a>&nbsp; Note:&nbsp; For placement we are not listed anywhere on the lease, otherwise this is essentially the copy that we will use so you will want to notify us of any simple additions you might like to make<br />
+															<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2">View a sample lease&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/leadership2/EQSX2QYwvn1EuKIrY8ZCIp0Bt6XqVYN4xtcu6QEgoFGJMA?e=Uqbc6kg" style="color:#007c89" target="_blank">here...</a>&nbsp; Note:&nbsp; For placement we are not listed anywhere on the lease, otherwise this is essentially the copy that we will use so you will want to notify us of any simple additions you might like to make<br />
 															<br />
-															View a sample of the contact / instruction exchange form we use once a tenant is secured,&nbsp;<a href="https://drive.google.com/file/d/1fFT1qTzlEM_rIkfGOFJTeWtnozaRUafS/view?usp=sharing" style="color:#007c89" target="_blank">here...</a><br />
+															View a sample of the contact / instruction exchange form we use once a tenant is secured,&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/marketing/Ea1rGelqYjZAsoQV82ing2MBiBWSS0BRKr8wFQgK3X6QVw?e=c3Gkn7" style="color:#007c89" target="_blank">here...</a><br />
 															&nbsp;</span></span></span></td>
 														</tr>
 													</tbody>
@@ -1978,7 +1978,7 @@ function sendPlacementInfo() {
 															<td style="text-align:center; vertical-align:top">
 															<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/yCZKQ-hNiQu48WKX0_97NAiauUpNY63VIwWJPAdYKvWcnSxjbptS1mJgNfAmaM_u8adVQGBasi0YRPX12EoCAHBA8pjlde4m_QF9JmbAfjxugm1ZJ77jR_PSFeVrLqFohkGG6DzdVV06Cm0GC36n-zcLpX2CyR9Pluk=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/861d683d-a5d3-47fd-8710-ae3a600461bc.jpg" style="border:0px; float:right; height:106px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:200px" /></span><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Clarity regarding move out expectations will go a long way toward a smooth experience</span></span><br />
 															<br />
-															<span style="font-family:tahoma,verdana,segoe,sans-serif">We notify tenants of potential security deposit charges using a predetermined list of costs.&nbsp; These are of course relative and can vary, but it is a very good benchmark that you can use to determine fair and legal charges after your tenant moves out.&nbsp; Take a look and let us know if you have any questions,&nbsp;<a href="https://drive.google.com/file/d/1G8kN6hpjusSj8WuRRDWWWZCSenMd5c7p/view?usp=sharing" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+															<span style="font-family:tahoma,verdana,segoe,sans-serif">We notify tenants of potential security deposit charges using a predetermined list of costs.&nbsp; These are of course relative and can vary, but it is a very good benchmark that you can use to determine fair and legal charges after your tenant moves out.&nbsp; Take a look and let us know if you have any questions,&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/marketing/EW0I7jTGoKRCt1JnSOcbUT8BgqosQVEz4PC45FAxU2eBNA?e=IzIxpO" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
 															</td>
 														</tr>
 													</tbody>
@@ -2053,7 +2053,7 @@ function sendPlacementInfo() {
 												<td style="vertical-align:top; width:282px">
 												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><strong>The Nightmare of Home&nbsp;Warranties for Landlords</strong><br />
 												<br />
-												More and more single family homes are being marketed with a home warranty policy. This is the seller&rsquo;s way of trying to convince the buyer that if something breaks during the first year of ownership, the warranty policy will cover the expense and the buyer will be 100% satisfied. But, in our personal experience, home warranties are more of a nightmare than a benefit to investors and landlords.&nbsp; More&nbsp;<a href="https://victoryrealestateinc.com/nightmare-home-warranties-landlords/" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+												More and more single family homes are being marketed with a home warranty policy. This is the seller&rsquo;s way of trying to convince the buyer that if something breaks during the first year of ownership, the warranty policy will cover the expense and the buyer will be 100% satisfied. But, in our personal experience, home warranties are more of a nightmare than a benefit to investors and landlords.&nbsp; More&nbsp;<a href="https://MoveZen360.com/nightmare-home-warranties-landlords/" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
 												</td>
 											</tr>
 										</tbody>
@@ -2062,11 +2062,11 @@ function sendPlacementInfo() {
 									<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
 										<tbody>
 											<tr>
-												<td style="vertical-align:top"><a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/MoveInInspection.pdf" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+												<td style="vertical-align:top"><a href="https://movezen.sharepoint.com/:b:/s/leadership2/Ee42mjN-s2VOrhgEye3MoMcBdI9qhClnmZAjaS_-XXl0Sg?e=VqmWC2" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
 											</tr>
 											<tr>
 												<td style="vertical-align:top; width:282px">
-												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://drive.google.com/file/d/1qwkEsRP1k64aC6-iRTevKxGVo8eV7VDS/view?usp=sharing" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong></span></span><br />
+												<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/leadership2/Ee42mjN-s2VOrhgEye3MoMcBdI9qhClnmZAjaS_-XXl0Sg?e=VqmWC2" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong></span></span><br />
 												<br />
 												We provide tenants with this form, and notify them that it&#39;s important they return it to you within 14 days of move in.&nbsp; It is intended to note damage that was preexisting before they moved in.&nbsp; It is a very good idea to request this from them several times if need be.&nbsp; From there you should inspect it for potential concerns, and finally consider if you should address any of the issues noted<br />
 												&nbsp;</span></span></span></p>
@@ -2203,7 +2203,7 @@ function sendLeaseBreakNotice() {
 												On the surface it&#39;s simple, you&#39;d be responsible for all rent still due per your lease (rent due = number of days left, X your daily rental rate), plus any costs associated with marketing or costs such as an HOA registration fee.&nbsp; So..</span></span>
 
 												<p><br />
-												<span style="font-size:14px"><span style="font-family:Helvetica">Then, when we secure a new tenant, they will cover many of the remaining days on your lease.&nbsp; We take their daily&nbsp;rate, multiply that by the days left on your lease, and subtract that from what you owe.&nbsp; Often there is very little cost to you when breaking your lease, but some situations are much tougher.&nbsp; For example, if you rented in summer and we are marketing again in the winter, it&#39;s likely we won&#39;t get the same rate so you&#39;ll owe more than if we get the same rate.&nbsp; Read lengthy details&nbsp;<a href="https://drive.google.com/file/d/1o2zGGjJYyhcJy_EobdwMy1Bm3f_eZW4F/view?usp=sharing" style="color:#007c89" target="_blank">here</a><br />
+												<span style="font-size:14px"><span style="font-family:Helvetica">Then, when we secure a new tenant, they will cover many of the remaining days on your lease.&nbsp; We take their daily&nbsp;rate, multiply that by the days left on your lease, and subtract that from what you owe.&nbsp; Often there is very little cost to you when breaking your lease, but some situations are much tougher.&nbsp; For example, if you rented in summer and we are marketing again in the winter, it&#39;s likely we won&#39;t get the same rate so you&#39;ll owe more than if we get the same rate.&nbsp; Read lengthy details&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/marketing/EckGw6N_6HVJqwLLew_f0yABX0tVCfYJ_r62bQGlVIXpAw?e=c5lMAb" style="color:#007c89" target="_blank">here</a><br />
 												<br />
 												(Rent due + standard move-in costs) - (daily rate of new tenant X days left on your lease) = Final balance</span></span></p>
 												</td>
@@ -2257,7 +2257,7 @@ function sendLeaseBreakNotice() {
 										<tbody>
 											<tr>
 												<td style="text-align:center; vertical-align:top">
-												<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/yCZKQ-hNiQu48WKX0_97NAiauUpNY63VIwWJPAdYKvWcnSxjbptS1mJgNfAmaM_u8adVQGBasi0YRPX12EoCAHBA8pjlde4m_QF9JmbAfjxugm1ZJ77jR_PSFeVrLqFohkGG6DzdVV06Cm0GC36n-zcLpX2CyR9Pluk=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/861d683d-a5d3-47fd-8710-ae3a600461bc.jpg" style="border:0px; float:right; height:106px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:200px" />The next thing, assuming you understand how the process works (if not speak up), is to do everything we can do make the home desirable and show ready.&nbsp; We have an in depth document that we spent a lot of time and great experience on, and these tips could make the difference between you owing almost nothing, or&nbsp;having to cover a serious shortfall.&nbsp; You may think it is a good idea to meet prospective tenants yourself, and that often does work out well as you can really sell the situation, but beware of subtle personality quirks.&nbsp; Many tenants and owners aren&#39;t cut out for marketing rentals as people can be very touchy regarding their housing situation.&nbsp; When in doubt, let us handle it.&nbsp; Read about preparing your home&nbsp;<a href="https://drive.google.com/file/d/1z97qpzhOoxMvgy4ArGKiJZjOIUyB7fPQ/view?usp=sharing" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
+												<p><span style="font-size:14px"><span style="font-family:Helvetica"><span style="font-family:tahoma,verdana,segoe,sans-serif"><img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/yCZKQ-hNiQu48WKX0_97NAiauUpNY63VIwWJPAdYKvWcnSxjbptS1mJgNfAmaM_u8adVQGBasi0YRPX12EoCAHBA8pjlde4m_QF9JmbAfjxugm1ZJ77jR_PSFeVrLqFohkGG6DzdVV06Cm0GC36n-zcLpX2CyR9Pluk=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/861d683d-a5d3-47fd-8710-ae3a600461bc.jpg" style="border:0px; float:right; height:106px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:200px" />The next thing, assuming you understand how the process works (if not speak up), is to do everything we can do make the home desirable and show ready.&nbsp; We have an in depth document that we spent a lot of time and great experience on, and these tips could make the difference between you owing almost nothing, or&nbsp;having to cover a serious shortfall.&nbsp; You may think it is a good idea to meet prospective tenants yourself, and that often does work out well as you can really sell the situation, but beware of subtle personality quirks.&nbsp; Many tenants and owners aren&#39;t cut out for marketing rentals as people can be very touchy regarding their housing situation.&nbsp; When in doubt, let us handle it.&nbsp; Read about preparing your home&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/marketing/ESpE9qtpMcJNl7TGedhWeBoBZfxk1LQ0le2ypPB9GNN3uQ?e=JbRmA0" style="color:#007c89" target="_blank">here...</a></span></span></span></p>
 												</td>
 											</tr>
 										</tbody>
@@ -2324,7 +2324,7 @@ function sendLeaseBreakNotice() {
 											<tr>
 												<td style="background-color:#dc7d44; text-align:center; vertical-align:top"><span style="font-size:14px"><span style="font-family:Helvetica"><span style="color:#f2f2f2"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif">Want to receive a full deposit refund?<br />
 												<br />
-												<img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/CwfPP2Gm-5YfYvz5K6444Dg9roPKWkfhdd7OXtlSfZmSRuEA1XQlqiZwULb8I_YwQWLKUNKp6Nb6uevEOhWaLWl1OvJ5HlH9zj2tzRir3Cm1t9vPquO0x9pteiuSci22RoBnhg7ro38lLKQ1TYrW2N_n6qeczo8GpnM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/2b2d3f7c-7177-4467-99ae-85167e03537a.jpg" style="border:0px; float:right; height:99px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:150px" />Since you&#39;ll be moving soon you may want to take a look at how / what we are most often forced to charge for.&nbsp; Anything on this list is almost certain to be deducted from your deposit, so it&#39;s only sensible to take care of it right now so you get the added benefit of a home that shows better and is more desirable.&nbsp; Our contractors can handle any of this for you at great rates, so contact us if you&#39;d like to get that process started.&nbsp; View common charges&nbsp;<a href="https://drive.google.com/file/d/1G8kN6hpjusSj8WuRRDWWWZCSenMd5c7p/view?usp=sharing" style="color:#007c89" target="_blank">here...&nbsp;&nbsp;</a></span></span></span></span></span></td>
+												<img class="gmail_canned_response_image" src="https://ci5.googleusercontent.com/proxy/CwfPP2Gm-5YfYvz5K6444Dg9roPKWkfhdd7OXtlSfZmSRuEA1XQlqiZwULb8I_YwQWLKUNKp6Nb6uevEOhWaLWl1OvJ5HlH9zj2tzRir3Cm1t9vPquO0x9pteiuSci22RoBnhg7ro38lLKQ1TYrW2N_n6qeczo8GpnM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/2b2d3f7c-7177-4467-99ae-85167e03537a.jpg" style="border:0px; float:right; height:99px; margin-bottom:10px; margin-left:10px; margin-right:10px; margin-top:10px; outline:none; width:150px" />Since you&#39;ll be moving soon you may want to take a look at how / what we are most often forced to charge for.&nbsp; Anything on this list is almost certain to be deducted from your deposit, so it&#39;s only sensible to take care of it right now so you get the added benefit of a home that shows better and is more desirable.&nbsp; Our contractors can handle any of this for you at great rates, so contact us if you&#39;d like to get that process started.&nbsp; View common charges&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/marketing/EW0I7jTGoKRCt1JnSOcbUT8BgqosQVEz4PC45FAxU2eBNA?e=QS0yXV" style="color:#007c89" target="_blank">here...&nbsp;&nbsp;</a></span></span></span></span></span></td>
 											</tr>
 										</tbody>
 									</table>
@@ -2382,9 +2382,9 @@ function sendLeaseBreakNotice() {
 									<td style="vertical-align:top; width:282px">
 									<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px"><strong>Here are some move checklists we&#39;ve compiled over the years</strong></span></span><br />
 									<br />
-									<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/Moving_Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
+									<span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">Upack</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving checklist 2 months&nbsp;</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">till</span></span><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:15px">&nbsp;moving day&nbsp;<a href="https://movezen360.com/wp-content/uploads/2018/02/Moving_Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
 									<br />
-									Trulia general moving tips &amp; checklist&nbsp;<a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/Trulia-Moving-Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
+									Trulia general moving tips &amp; checklist&nbsp;<a href="https://MoveZen360.com/wp-content/uploads/2018/02/Trulia-Moving-Checklist.pdf" style="color:#007c89" target="_blank">here</a><br />
 									<br />
 									33 Moving tips to make life easier&nbsp;<a href="https://www.buzzfeed.com/peggy/brilliant-moving-tips?utm_term=.twbx7qAne#.ynN3YDyem" style="color:#007c89" target="_blank">here</a></span></span><br />
 									<br />
@@ -2397,11 +2397,11 @@ function sendLeaseBreakNotice() {
 						<table align="right" cellspacing="0" style="border-collapse:collapse; width:282px">
 							<tbody>
 								<tr>
-									<td style="vertical-align:top"><a href="https://victoryrealestateinc.com/wp-content/uploads/2018/02/MoveInInspection.pdf" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
+									<td style="vertical-align:top"><a href="https://movezen360.com/wp-content/uploads/2018/02/MoveInInspection.pdf" target="_blank" title=""><img alt="" class="gmail_canned_response_image" src="https://ci6.googleusercontent.com/proxy/H_jOkJp9daAEDpLLTXB4ab5q9sQH1wGwTOcOSyxF3bW6xdqq48QgkfywGw7-DtaySlFfx-M1DfrgWn7Gl_4JD_FrX_y9dsy09kYYiG9i0K_cFCjvTd3yna1M-I12HzHNGtIRJUCprd9eQ9Ny7TDiksNA5ILluRGrvAM=s0-d-e1-ft#https://gallery.mailchimp.com/550bd6ef99c9bde377800aeef/images/59cbc7b5-e21b-452a-8e68-0ce14611b5a2.jpg" style="border:0px; height:auto; max-width:1024px; outline:none; text-decoration-line:none; vertical-align:bottom; width:264px" /></a></td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top; width:282px">
-									<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://drive.google.com/file/d/1qwkEsRP1k64aC6-iRTevKxGVo8eV7VDS/view?usp=sharing" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
+									<p><span style="font-size:16px"><span style="font-family:Helvetica"><span style="color:#757575"><span style="font-size:15px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>Download&nbsp;move-in inspection&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/leadership2/Ee42mjN-s2VOrhgEye3MoMcBdI9qhClnmZAjaS_-XXl0Sg?e=awZFMW" style="color:#007c89; font-weight:normal" target="_blank">here</a></strong><br />
 									<br />
 									You should have filled one of these out shortly after moving in.&nbsp; It would be a great idea to do a fresh inspection now, then take out your original inspection and compare the two for differences.&nbsp;<br />
 									<br />
@@ -2441,13 +2441,13 @@ function sendNoLongHold() {
   
   <p>&nbsp;</p>
   
-  <p><a href="https://victoryrealestateinc.com/rental-search/?status=for-rent" target="_blank">https://victoryrealestateinc.com/rental-search/?status=for-rent</a></p>
+  <p><a href="https://movezen360.com/rental-search/?status=for-rent" target="_blank">https://movezen360.com/rental-search/?status=for-rent</a></p>
   
   <p>&nbsp;</p>
   
   <p>If you add us on Facebook you&#39;ll receive updates on properties as&nbsp;they come available.&nbsp;&nbsp;</p>
   
-  <p><a href="https://business.facebook.com/VictoryPropertyManagement/" target="_blank">https://business.facebook.com/VictoryPropertyManagement/</a>&nbsp;</p>
+  <p><a href="https://business.facebook.com/MoveZenPropertyManagement/" target="_blank">https://business.facebook.com/MoveZenPropertyManagement/</a>&nbsp;</p>
   
   <p>&nbsp;</p>
   
