@@ -22,7 +22,7 @@ function sendSorry() {
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
   prependHtmlBody(`<p>Hi!</p><br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we've' accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for your interest in this property.&nbsp; Unfortunately, we've accepted an application on the property and should be collecting the deposit within a day or so.&nbsp; I&#39;ll certainly keep your contact information nearby in the event that something comes up with our current applicant.&nbsp; Thanks again, and sorry for the inconvenience. Please follow us on your favorite social media platform and be the first to hear about new listings as they come available. Thanks! Customer Service Team</p><br>
 
 <p><a href="https://www.facebook.com/MoveZenPropertyManagement" target="_blank">Follow us on Facebook to Receive Automatic Updates on Price Reductions and New Listings</a></p><br>
 
@@ -57,7 +57,7 @@ function sendApp() {
   <br />
   <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EZgzJDZR3LhMkdV820qNJs4BohN5zw1amoXeB2OuWVlikA?e=cPpkVQ">MoveZen Rules &amp; Regulations Link</a><br />
   <br />
-  <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EUGHc7hjjnlMvpxiqDjwhK4BMbfvsSwl5YqoA7JIHH0xAQ?e=8ELHHz">Sample NC lease</a></p>`);
+  <a href="https://movezen360.com/ncsamplelease/">Sample NC lease</a></p>`);
 
 }
 
@@ -69,22 +69,11 @@ function sendVendor() {
   // Office.context.mailbox.item.body.setAsync("This is the body of the email.");
   prependHtmlBody(`<p>​Hello!<br />
   <br />
-  Thanks for your interest in becoming a vendor with MoveZen Property Management. Attached, you&#39;ll find an information packet and some forms for your reference. In order to complete your vendor onboardings, we will need the following:<br />
-  &nbsp;</p>
-  
-  <ul>
-    <li><a href="https://movezen.sharepoint.com/:b:/s/Teams/EfwwnpuUK9FIjAvfRLb6kcwBz8TEiRRt7bNnXbOTFVQJ9w?e=bZxTYG">Learn who we are</a></li>
-    <li>Provide your business/individual name</li>
-    <li><a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf">Submit a signed W9 form</a></li>
-    <li>Provide a certificate of insurance listing MoveZen as an additional insured/interest at the following address: 4002 1/2 Oleander Dr. Suite 1A, Wilmington, NC 28403</li>
-    <li>Share your mailing address and contact information</li>
-    <li>Describe your field of work and the service area you cover</li>
-  </ul>
-  
-  <p><br />
-  Please let us know if you have any questions. We look forward to working with you!<br />
-  <br />
-  Thanks, Customer Service Team</p>
+  <p>Thanks for reaching out. &nbsp;We cover a pretty wide area, and have account managers who mostly choose their own vendors based on the information they. &nbsp;What you provided is helpful but there&#39;s a bit more than can really increase your odds of success. &nbsp;So we set this simple quick form to help get you routed as close to the people who will make these decisions as possible. &nbsp;If you don&#39;t mind please fill out this form and you can copy / paste this info in the details section as well</p>
+
+<p>Thanks! Customer Service Team&nbsp;</p>
+
+<p><a href="https://forms.office.com/r/eXb3pNS0fs">https://forms.office.com/r/eXb3pNS0fs</a></p>
   `);
 
 }
@@ -140,7 +129,7 @@ function sendRentalResponse() {
   
   <p>Here are some common steps you may find helpful</p><br><br>
 
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="https://movezen360.com/application-acceptance-qualification-general-faq/">https://movezen360.com/application-acceptance-qualification-general-faq/</a></p><br><br>
+  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specific question and we'll nail it down.&nbsp;<a href="https://movezen360.com/application-acceptance-qualification-general-faq/">https://movezen360.com/application-acceptance-qualification-general-faq/</a></p><br><br>
 
   <p>Many of our homes allow self showings, but either way you will want to initiate the process to view any home using this link. Once registered we will have your information, and if the home isn&#39;t quite available to view now we&#39;ll be in touch with updates as to when that will be.&nbsp; If a home isn&#39;t available to show, we&#39;ll be limited in how much we can do for you until it is, but don&#39;t worry your info will be included in the process though that&#39;s not to say you&#39;ll get a chance to view a home in a busy market. In 2022 only about 1/3rd of potential contacts were able to view, but that&#39;s gotten much better in 2023</p><br><br>
 
@@ -154,7 +143,7 @@ function sendRentalResponse() {
 
   <p>Finally you can often find answers faster using this helpful policy and questions search</p><br><br>
 
-  <p><a href="https://movezen360.com/helpdesk/">https://movezen360.com/helpdesk/</a></p>
+  <p><a href="https://movezen360.com/helpcenter/">https://movezen360.com/helpcenter/</a></p>
 
   <br><br>
 
@@ -1505,7 +1494,7 @@ function sendMoveInspectionRemind() {
   
   <p>&nbsp;</p>
   
-  <p>Click&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvmT5NPpg104WVXuCqaf1vtsnV4KyNls6Q5mC-xm67QiUuRQ/viewform?usp=sf_link" style="color:#1155cc" target="_blank">here</a>&nbsp;to fill out the move-in inspection form online.&nbsp; Or you can fill out this paper copy, either is perfectly fine:&nbsp;<a href="https://movezen.sharepoint.com/:b:/s/Teams/Edt6ja78kSBOqbEa6fyngPAB3qoIE2hIGMfwmv6aqWhANQ?e=9AcAcc" style="color:#1155cc">Paper move in inspection</a></p>
+  <p>Click&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvmT5NPpg104WVXuCqaf1vtsnV4KyNls6Q5mC-xm67QiUuRQ/viewform?usp=sf_link" style="color:#1155cc" target="_blank">here</a>&nbsp;to fill out the move-in inspection form online.&nbsp; Or you can fill out this paper copy, either is perfectly fine:&nbsp;<a href="https://movezen360.com/moveininspection/" style="color:#1155cc">Paper move in inspection</a></p>
   
   <p>&nbsp;</p>
   
@@ -2447,7 +2436,7 @@ function sendNoLongHold() {
   
   <p>If you add us on Facebook you&#39;ll receive updates on properties as&nbsp;they come available.&nbsp;&nbsp;</p>
   
-  <p><a href="https://business.facebook.com/MoveZenPropertyManagement/" target="_blank">https://business.facebook.com/MoveZenPropertyManagement/</a>&nbsp;</p>
+  <p><a href="https://www.facebook.com/MoveZenPropertyManagement" target="_blank">https://www.facebook.com/MoveZenPropertyManagement</a>&nbsp;</p>
   
   <p>&nbsp;</p>
   
@@ -2480,7 +2469,7 @@ function sendPortalResetAll() {
   You could simply try a less commonly used browser, or possibly private/incognito mode if you&rsquo;re familiar with that<br />
   <br />
   <br />
-  If you&#39;re still having trouble after those two steps, we&rsquo;ll simply need to delete your login and start from scratch which almost always works. &nbsp;Just reach back out to us and we&rsquo;ll run that through pretty quickly<br />
+  If you're still having trouble after those two steps, we’ll simply need to delete your login and start from scratch which almost always works, and is fast and simple.  Just reach back out to us and we’ll run that through pretty quickly<br />
   <br />
   <br />
   Thanks!</p>
