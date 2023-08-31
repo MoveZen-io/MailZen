@@ -57,7 +57,8 @@ function sendApp() {
   <br />
   <a href="https://movezen.sharepoint.com/:b:/s/marketing/ES2Srz4GLp5FmuqPlcojIewB2SR-_d4o1nvMf8eaWf3dvg?e=4cqWeS">MoveZen Rules &amp; Regulations Link</a><br />
   <br />
-  <a href="https://movezen360.com/ncsamplelease/">Sample NC lease</a></p>`);
+  <a href="https://movezen360.com/ncsamplelease/">Sample NC lease</a></p><br><br>
+  <a href="https://movezen360.com/applicationstart/">Help / FAQ for Applications</a></p>`);
 
 }
 
