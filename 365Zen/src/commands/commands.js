@@ -55,7 +55,7 @@ function sendApp() {
   <br />
   You&#39;ll also find crucial information on how to address pre-move in repairs and if you hope to get a pet during your time in the home. &nbsp;<br />
   <br />
-  <a href="https://movezen.sharepoint.com/:b:/s/acctmanagers/EZgzJDZR3LhMkdV820qNJs4BohN5zw1amoXeB2OuWVlikA?e=cPpkVQ">MoveZen Rules &amp; Regulations Link</a><br />
+  <a href="https://movezen.sharepoint.com/:b:/s/marketing/ES2Srz4GLp5FmuqPlcojIewB2SR-_d4o1nvMf8eaWf3dvg?e=4cqWeS">MoveZen Rules &amp; Regulations Link</a><br />
   <br />
   <a href="https://movezen360.com/ncsamplelease/">Sample NC lease</a></p>`);
 
