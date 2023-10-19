@@ -203,314 +203,25 @@ function w9Request() {
 
 
 
-function sendMoveInReminders() {
-  Office.context.mailbox.item.subject.setAsync("Move In Info - Thank you for choosing MoveZen!");
-
-  prependHtmlBody(`<table align="center" cellspacing="0" id="m_-5455835037964899298m_-1598750376468129031gmail-m_1119163153852469884bodyTable" style="border-collapse:collapse; height:4165.69px; padding:0px; width:599.965px">
-	
-			</td>
-		</tr>
-	</tbody>
-</table>`);
-
-}
 
 
+// function sendPortalResetAll() {
+//   Office.context.mailbox.item.subject.setAsync("A couple quick portal login steps");
 
-
-
-
-function sendUtilityNotice() {
-  Office.context.mailbox.item.subject.setAsync("It's important you connect utilities before your move, here's a tool to help");
-
-  prependHtmlBody(`<p>Hi!</p><br>
-
-  <p>This is a friendly reminder that it&#39;s time to set up your utilities for your new home.&nbsp;</p><br>
-  .theutilityhub.net/partners-page/victory-property-management" target="_blank">Activate Your Utilities Here With Utility Hub</a></p><br><br>
-  
-  <p><a href="https://movezen360.com/utility-hub-makes-moving-easier/" target="_blank">Read more about Utility Hub</a></p>`);
-
-}
-
-
-
-
-
-
-function sendGeneralRentInfo() {
-  Office.context.mailbox.item.subject.setAsync("Thanks for your interest. Here's some info to help you get started");
-
-  prependHtmlBody(`<p>Here are some common steps you may find helpful</p><br>
-
-  <p>For questions on the application process, start here.&nbsp; If this doesn&#39;t cover it (it usually does and much more), let us know your specic question and we'll nail it down.&nbsp;<a href="ht
-  <br><br>
-  
-  <p>Please let us know if you have any questions!&nbsp;&nbsp;Customer Service Team</p>`);
-
-}
-
-
-
-
-
-
-// function sendTurnoverReserve() {
-//   Office.context.mailbox.item.subject.setAsync("Let's nail down the needed turnover funds now to avoid critical delays");
-
-//   prependHtmlBody(`asdf`);
+//   prependHtmlBody(`<p>​Hi! &nbsp;Sorry you&rsquo;re having trouble getting your portal activated or logged in<br />
+//   <br />
+//   The first step is to clear your browser cookies or cache. &nbsp;You can google how to do that relatively easily as it depends on your web browser<br />
+//   <br />rouble after those two steps, we’ll simply need to delete your login and start from scratch which almost always works, and is fast and simple.  Just reach back out to us and we’ll run that through pretty quickly<br />
+//   <br />
+//   <br />
+//   Thanks!</p>
+//   `);
 
 // }
 
 
 
 
-
-function sendVendorInsur() {
-  Office.context.mailbox.item.subject.setAsync("Let's get your insurance updated to avoid critical delays");
-
-  prependHtmlBody(`<p>Hi!</p>
-
-  <p>It looks like yo
-  <p>Wilmington, NC 28403&nbsp;<br />
-  <br />
-  Thanks! MoveZen&nbsp; (we&#39;ll legally change our name in late 2024, this is dba)</p>`);
-
-}
-
-
-
-
-
-function sendTurnoverReserve() {
-  Office.context.mailbox.item.subject.setAsync("Efficiently turning over a rental starts long before your tenant has moved out");
-
-  prependHtmlBody(`<p>Hi!</p><br>
-  
-  <p>Hope you're doing well.<br><br>
-  
-  Even for the best 
-  <p>&nbsp;</p>
-  
-  <p>Let us know if you have any questions. Thanks!&nbsp; Customer Service Team</p>`);
-
-}
-
-
-
-
-function sendMoveInspectionRemind() {
-  Office.context.mailbox.item.subject.setAsync("The move in inspection is meant for no other reason than to protect you");
-
-  prependHtmlBody(`<p> I hope your move-in went smoothly and you're enjoying the home!</p>
-
-  <p>&nbsp;</p>
-  
-  <p>We know you&#39;re busy
-  
-  <p>&nbsp;</p>
-  
-  <p>Thanks!&nbsp;</p>
-  `);
-
-}
-
-
-
-
-function sendComplaintResponse() {
-  Office.context.mailbox.item.subject.setAsync("We hear you and we're working on it");
-
-  prependHtmlBody(`<p>Hi</p>
-
-  <p>&nbsp;</p>
-  
-  <p>Please allow us some time to research things, and we&#39;ll be back in touch soon.</p>
-  
-  <p>&nbsp;</p>
-  
-  <p>Thanks! Customer Service Team</p>`);
-
-}
-
-
-
-
-function sendMoveChecklist() {
-  Office.context.mailbox.item.subject.setAsync("The most important email we'll send regarding your move out");
-
-  prependHtmlBody(`<p>​Hi!<br />
-  <br />
-  We made this checkl
-  Most importantly, use common sense, don&rsquo;t destroy something in an effort to hide or improve it. &nbsp;If you have questions, ask! &nbsp;We are literally here to help smooth this process out now, rather than fight through it later. &nbsp;We often have great tips for problems that could help you a lot<br />
-  <br />
-  <br />
-  Thanks!</p>`);
-
-}
-
-
-
-
-function sendUnseenDisclaimer() {
-  Office.context.mailbox.item.subject.setAsync("Site Unseen Company Warning Disclaimer");
-
-  prependHtmlBody(`<p>​Hi!<br />
-  <br />
-  Below is our site unseen disclaimer. &nbsp;You&#39;ve probably already been warned, but this is consistently one of the biggest mistakes renters make in our experience. &nbsp;We aren&#39;t going to shoul
-  <p><br />
-  <br />
-  Thanks, Customer Service Team</p>`);
-
-}
-
-
-
-
-function sendReferenceQuestions() {
-  Office.context.mailbox.item.subject.setAsync("Rental Reference Questions for a Former Tenant");
-
-  prependHtmlBody(`<p>​Hello, we've' received a rental application for -----------------------------.
-  <br />
-  <br />
-  We wanted to write to ask if
-  <br />
-  Thanks!</p>`);
-
-}
-
-
-
-
-function sendPlacementInfo() {
-  Office.context.mailbox.item.subject.setAsync("Here are the next steps for us to neatly finalize things for you");
-
-  prependHtmlBody(`<table cellspacing="0" style="border-collapse:collapse; font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif; width:100%">
-	<tbody>
-		<tr>
-			<td style="border-bo
-				</tbody>
-			</table>
-			</td>
-		</tr>
-		<tr>
-			<td style="border-bottom:0px; border-top:0px; vertical-align:top">&nbsp;</td>
-		</tr>
-	</tbody>
-</table>`);
-
-}
-
-
-
-
-function sendLeaseBreakNotice() {
-  Office.context.mailbox.item.subject.setAsync("Helpful tips and next steps for breaking your lease the safe way");
-
-  prependHtmlBody(`<table align="center" cellspacing="0" style="border-collapse:collapse; max-width:600px; width:600px">
-	<tbody>
-		<tr>
-			<td style="border-bot
-			</td>
-		</tr>
-	</tbody>
-</table>`);
-
-}
-
-
-
-
-function sendNoLongHold() {
-  Office.context.mailbox.item.subject.setAsync("The home you inquired about isn't available for a pretty good while");
-
-  prependHtmlBody(`<p>Hi!</p>
-
-  <p>&nbsp;</p>
-  
-  <p><br />
-  Thank you&nbsp;very much&nbsp;for your
-  <p>We normally list about a month in advance of a home being vacant, however in hot market periods that can shorten up quite a bit</p>
-  
-  <p>&nbsp;</p>
-  
-  <p>Hope these tips help a bit in your search.&nbsp; Let us know if we can answer any questions. Thanks!&nbsp;</p>`);
-
-}
-
-
-
-function sendPortalResetAll() {
-  Office.context.mailbox.item.subject.setAsync("A couple quick portal login steps");
-
-  prependHtmlBody(`<p>​Hi! &nbsp;Sorry you&rsquo;re having trouble getting your portal activated or logged in<br />
-  <br />
-  The first step is to clear your browser cookies or cache. &nbsp;You can google how to do that relatively easily as it depends on your web browser<br />
-  <br />rouble after those two steps, we’ll simply need to delete your login and start from scratch which almost always works, and is fast and simple.  Just reach back out to us and we’ll run that through pretty quickly<br />
-  <br />
-  <br />
-  Thanks!</p>
-  `);
-
-}
-
-
-
-function sendFieldStaff() {
-  Office.context.mailbox.item.subject.setAsync("Thanks for your interest in our field support role!");
-
-  prependHtmlBody(`<p>​Hello!<br />
-  <br />
-  Thanks for responding to our &nbsp;listing for the field staff 1099 position we have available!<br />
-  <br />
-  We wanted to ask you a
-  We look forward to hearing back from you!<br />
-  <br />
-  Thanks!</p>`);
-
-}
-
-
-
-function sendShowNotice() {
-  Office.context.mailbox.item.subject.setAsync("Sorry, it's the dreaded showing notice");
-
-  prependHtmlBody(`<p>​Hi! &nbsp;Yes this is the dreaded showing notice. &nbsp;We hate to bother you, but owners get really hard to deal with if we aren&#39;t making headway to ensure they don&#39;t go a long period of time with a mortgage and no income. That&#39;s the last thing you want before we have to report your move out to them. &nbsp;In fact, the number 1 way to ensure an owner isn&#39;t a pain after move out, is to have a replacement lined up and moving in not too long after you. They are dramatically less concerned about your potential charges 
-  We will be in touch and appreciate your patience and understanding<br />
-  <br />
-  Thanks!</p>`);
-
-}
-
-
-
-function sendMoveInInfo() {
-  Office.context.mailbox.item.subject.setAsync("Final Move In Instructions");
-
-  prependHtmlBody(`<p>Hi!</p>
-
-  <p>&nbsp;</p>
-  
-  <p>I hope everything is coming together smoothly for your move!&nbsp; I wanted to send you a note to cover the move-in process to ensure there are no hiccups on move-in day!&nbsp;</p>
-  <p>&nbsp;</p>
-  
-  <p>Thanks!&nbsp;&nbsp;</p>`);
-
-}
-
-
-
-function sendRenewalIntro() {
-  Office.context.mailbox.item.subject.setAsync("Time is growing short to renew your lease");
-
-  prependHtmlBody(`<p>Hi &nbsp;</p>
-
-  <p>Hope you&rsquo;re doing well today&nbsp;</p>
-  
-  <p>&nbsp;</p>
-  
-  <p>We understand renewing or moving decisions are never fun, but those decisions must be made. For a rental owner though, waiting and wondering if your resident will extend can be really difficult, 
-  <p>Thanks so much for your understanding. We appreciate you being a part of our MoveZen community!&nbsp;</p>`);
-};
 
 
 
@@ -522,7 +233,7 @@ Office.onReady(info => {
     document.getElementById("insertsdNewMan").onclick = sdNewMan;
     document.getElementById("insertfilterRemoved").onclick = filterRemoved;
     document.getElementById("insertpayPlan").onclick = payPlan;
-    document.getElementById("eCheck").onclick = eCheck;
-    document.getElementById("w9Request").onclick = w9Request;
+    document.getElementById("inserteCheck").onclick = eCheck;
+    document.getElementById("insertw9Request").onclick = w9Request;
   }
 });
