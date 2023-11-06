@@ -2647,13 +2647,13 @@ function sendreduce1() {
 	// Office.context.mailbox.item.body.setAsync("This is the body of the email.");
 	prependHtmlBody(`<p>Hi!</p><br>
   
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br><br>
   
-  As you can see on the report, after our last rent adjustment on 10/20 we got 10 new leads, two of those scheduled a viewing but only one followed through. The feedback we received from the viewing is noted on the report. All though positive, 123 Main St didn't quite match their expectations and they have decided not to apply.<br>
+  As you can see on the report, after our last rent adjustment on 10/20 we got 10 new leads, two of those scheduled a viewing but only one followed through. The feedback we received from the viewing is noted on the report. All though positive, 123 Main St didn't quite match their expectations and they have decided not to apply.<br><br>
   
-  We have reached out to all captured leads to engage and encourage them to set up a viewing and to help answer any questions they may have. Great customer service starts with phenomenal communication! <br>
+  We have reached out to all captured leads to engage and encourage them to set up a viewing and to help answer any questions they may have. Great customer service starts with phenomenal communication! <br><br>
   
-  As we have not yet received an application that meets our requirements, we will adjust the rent tomorrow, from $1999 to $1949. This reduction will refresh the listing in the search engines to increase visibility online. We are also adding a few new exterior pictures. With the change of season, the trees in the front yard look absolutely stunning!  <br>
+  As we have not yet received an application that meets our requirements, we will adjust the rent tomorrow, from $1999 to $1949. This reduction will refresh the listing in the search engines to increase visibility online. We are also adding a few new exterior pictures. With the change of season, the trees in the front yard look absolutely stunning! <br> <br>
   
   If you have any questions or thoughts, please don't hesitate to reach out. I'll be back in touch next Tuesday with another update unless, of course, we find the ideal applicant before then!<br><br>
   
@@ -2671,17 +2671,17 @@ function sendreduce1() {
 	// Office.context.mailbox.item.body.setAsync("This is the body of the email.");
 	prependHtmlBody(`<p>Hi!</p><br>
   
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br><br>
 
-  As you can see on the report, after our last rent adjustment to $1999 we only captured a few new leads and we did not have any showings. We know this is not the news you were hoping for and we understand the stress of having a vacancy.<br>
+  As you can see on the report, after our last rent adjustment to $1999 we only captured a few new leads and we did not have any showings. We know this is not the news you were hoping for and we understand the stress of having a vacancy.<br><br>
   
-  Our strategy has always been to methodically reduce the rate until we meet the current market's needs. I would like to adjust the rate to $1925 tomorrow. This drop is a bit more drastic than last week but with an increase in nearby vacancies and the upcoming holiday season, we feel this reduction is necessary. <br>
+  Our strategy has always been to methodically reduce the rate until we meet the current market's needs. I would like to adjust the rate to $1925 tomorrow. This drop is a bit more drastic than last week but with an increase in nearby vacancies and the upcoming holiday season, we feel this reduction is necessary. <br><br>
   
-  The cost of vacancy exceeds just the loss of rent income. Empty houses do not fare well, especially in the colder months. Add to that, utilities and continued upkeep and the cost keeps rising. Reducing the rate by $75/month would result in a net loss of $900 for the year. Allowing your property to sit vacant at its current rate, is costing you roughly $67 per day. In less than 14 days the net loss will exceed the $900 for the year only factoring in the loss of rent.   <br>
+  The cost of vacancy exceeds just the loss of rent income. Empty houses do not fare well, especially in the colder months. Add to that, utilities and continued upkeep and the cost keeps rising. Reducing the rate by $75/month would result in a net loss of $900 for the year. Allowing your property to sit vacant at its current rate, is costing you roughly $67 per day. In less than 14 days the net loss will exceed the $900 for the year only factoring in the loss of rent.   <br><br>
   
-  I have attached two new listings that are close by. Comp 1 is similar in size and finishes. The current rate is $1949, $50 less than our current listing price.  Option 2 is roughly the same price as ours at $1995 but it has fresh paint throughout. The best way for us to compete with these is to undercut their rates.<br>
+  I have attached two new listings that are close by. Comp 1 is similar in size and finishes. The current rate is $1949, $50 less than our current listing price.  Option 2 is roughly the same price as ours at $1995 but it has fresh paint throughout. The best way for us to compete with these is to undercut their rates.<br><br>
   
-  We are on the same team and have the same end goal of placing a great tenant in your home as soon as possible. Please know that we are doing everything we can to make this happen. Chris will be stopping by the property again this week to knock down any cobwebs, sweep the walkway, etc so the property will show at its best.<br>
+  We are on the same team and have the same end goal of placing a great tenant in your home as soon as possible. Please know that we are doing everything we can to make this happen. Chris will be stopping by the property again this week to knock down any cobwebs, sweep the walkway, etc so the property will show at its best.<br><br>
   
   If you have any questions or thoughts, please don't hesitate to reach out. I'll be back in touch next Tuesday with another update unless, of course, we find the ideal applicant before then!<br><br>
   
@@ -2703,15 +2703,15 @@ function sendreduce1() {
 	// Office.context.mailbox.item.body.setAsync("This is the body of the email.");
 	prependHtmlBody(`<p>Hi!</p><br>
   
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It's Tuesday and time for your weekly update on our listing for 123 Main St. I've attached the Tenant Turner Owner's Report for you here and wanted to share our next steps with you!<br><br>
 
-  As you can see on the report, after our last rent adjustment to $1999 we captured a significant number of new leads and we had several showings. The feedback was mostly positive but unfortunately, we have not yet received an application. <br>
+  As you can see on the report, after our last rent adjustment to $1999 we captured a significant number of new leads and we had several showings. The feedback was mostly positive but unfortunately, we have not yet received an application. <br><br>
   
-  We strongly feel that we are on the right track and a minor adjustment this week could do the trick. We will reduce the rate to $1985 tomorrow. We will continue to communicate with all new leads and help answer all questions regarding the property. <br>
+  We strongly feel that we are on the right track and a minor adjustment this week could do the trick. We will reduce the rate to $1985 tomorrow. We will continue to communicate with all new leads and help answer all questions regarding the property. <br><br>
   
-  We will stop by the property again this week after all the viewings to make sure everything is still looking great.<br>
+  We will stop by the property again this week after all the viewings to make sure everything is still looking great.<br><br>
   
-  Hope to be back in touch before next Tuesday with applications for you to review. Please don't hesitate to reach out if you have any questions for me!<br>
+  Hope to be back in touch before next Tuesday with applications for you to review. Please don't hesitate to reach out if you have any questions for me!<br><br>
   <br>
   
   
